@@ -1,0 +1,3 @@
+DLV 2.1.1
+
+{cored(u,1,10,1), cored(u,0,1,1), cored(u,0,2,1), cored(10,2,12,2), cored(0,1,10,2), cored(0,0,1,2), cored(0,0,2,2)}

@@ -1,0 +1,4376 @@
+% U_001 = {"The Prestige", "The Dark Knight"} 
+ 
+characterization(001,X) :-	producedBy(X,X1),
+				writtenBy(X,"Jonathan Nolan"),
+				releasedIn(X,X3),
+				directedBy(X,"Christopher Nolan"),
+				starring(X,"Christian Bale"),
+				hasPeriod(X,"00's"),
+				hasGenre(X,X4),
+				hasRating(X,"PG-13"),
+				isA(X,"Film"),
+				isA(X,"entity"),
+					citizenOf("Jonathan Nolan","United Kingdom"),
+					citizenOf("Jonathan Nolan",X3),
+					citizenOf("Jonathan Nolan","United States"),
+					citizenOf("Christopher Nolan","United Kingdom"),
+					citizenOf("Christopher Nolan",X3),
+					citizenOf("Christopher Nolan","United States"),
+					citizenOf("Christian Bale","United Kingdom").
+ 
+%=========================================================================
+ 
+% U_002 = {"The Prestige", "The Dark Knight", "Raging Bull"} 
+ 
+characterization(002,X) :-	releasedIn(X,X1),
+				hasPeriod(X,X3),
+				producedBy(X,X4),
+				hasGenre(X,X5),
+				starring(X,X6),
+				writtenBy(X,X7),
+				hasRating(X,X8),
+				isA(X,"Film"),
+				directedBy(X,X9),
+				isA(X,"entity"),
+					citizenOf(X6,X10),
+					citizenOf(X7,X10),
+					citizenOf(X7,X1),
+					citizenOf(X7,"United States"),
+					citizenOf(X9,X10),
+					citizenOf(X9,X1),
+					citizenOf(X9,"United States").
+ 
+%=========================================================================
+ 
+% U_003 = {"The Prestige", "The Dark Knight", "Film"} 
+ 
+characterization(003,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_004 = {"The Prestige", "The Dark Knight", "R"} 
+ 
+characterization(004,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_005 = {"The Prestige", "The Dark Knight", "Rating"} 
+ 
+characterization(005,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_006 = {"The Prestige", "The Dark Knight", "Biography"} 
+ 
+characterization(006,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_007 = {"The Prestige", "The Dark Knight", "Genre"} 
+ 
+characterization(007,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_008 = {"The Prestige", "The Dark Knight", "80's"} 
+ 
+characterization(008,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_009 = {"The Prestige", "The Dark Knight", "Period"} 
+ 
+characterization(009,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_010 = {"The Prestige", "The Dark Knight", "Martin Scorsese"} 
+ 
+characterization(010,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_011 = {"The Prestige", "The Dark Knight", "Jake LaMotta"} 
+ 
+characterization(011,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_012 = {"The Prestige", "The Dark Knight", "Robert De Niro"} 
+ 
+characterization(012,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_013 = {"The Prestige", "The Dark Knight", "United States"} 
+ 
+characterization(013,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_014 = {"The Prestige", "The Dark Knight", "Country"} 
+ 
+characterization(014,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_015 = {"The Prestige", "The Dark Knight", "Chartoff-Winkler Productions"} 
+ 
+characterization(015,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_016 = {"The Prestige", "The Dark Knight", "Production House"} 
+ 
+characterization(016,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_017 = {"The Prestige", "The Dark Knight", "The Shining"} 
+ 
+characterization(017,X) :-	releasedIn(X,X1),
+				hasPeriod(X,X3),
+				producedBy(X,X4),
+				hasGenre(X,X5),
+				starring(X,X6),
+				writtenBy(X,X7),
+				hasRating(X,X8),
+				isA(X,"Film"),
+				directedBy(X,X9),
+				isA(X,"entity"),
+					citizenOf(X6,X10),
+					citizenOf(X7,X10),
+					citizenOf(X7,"United States"),
+					citizenOf(X9,X10),
+					citizenOf(X9,"United States").
+ 
+%=========================================================================
+ 
+% U_018 = {"The Prestige", "The Dark Knight", "Drama"} 
+ 
+characterization(018,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_019 = {"The Prestige", "The Dark Knight", "Stanley Kubrick"} 
+ 
+characterization(019,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_020 = {"The Prestige", "The Dark Knight", "Stephen King"} 
+ 
+characterization(020,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_021 = {"The Prestige", "The Dark Knight", "Jack Nicholson"} 
+ 
+characterization(021,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_022 = {"The Prestige", "The Dark Knight", "United Kingdom"} 
+ 
+characterization(022,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_023 = {"The Prestige", "The Dark Knight", "Warner Bros."} 
+ 
+characterization(023,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_024 = {"The Prestige", "The Dark Knight", "Stardust Memories"} 
+ 
+characterization(024,X) :-	releasedIn(X,X1),
+				hasPeriod(X,X3),
+				producedBy(X,X4),
+				hasGenre(X,X5),
+				starring(X,X6),
+				writtenBy(X,X7),
+				hasRating(X,X8),
+				isA(X,"Film"),
+				directedBy(X,X9),
+				isA(X,"entity"),
+					citizenOf(X6,X10),
+					citizenOf(X7,X10),
+					citizenOf(X7,X1),
+					citizenOf(X7,"United States"),
+					citizenOf(X9,X10),
+					citizenOf(X9,X1),
+					citizenOf(X9,"United States").
+ 
+%=========================================================================
+ 
+% U_025 = {"The Prestige", "The Dark Knight", "PG"} 
+ 
+characterization(025,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_026 = {"The Prestige", "The Dark Knight", "Comedy"} 
+ 
+characterization(026,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_027 = {"The Prestige", "The Dark Knight", "Woody Allen"} 
+ 
+characterization(027,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_028 = {"The Prestige", "The Dark Knight", "Jack Rollins & Charles H. Joffe Productions"} 
+ 
+characterization(028,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_029 = {"The Prestige", "The Dark Knight", "Buddy Buddy"} 
+ 
+characterization(029,X) :-	releasedIn(X,X1),
+				hasPeriod(X,X3),
+				producedBy(X,X4),
+				hasGenre(X,X5),
+				starring(X,X6),
+				writtenBy(X,X7),
+				hasRating(X,X8),
+				isA(X,"Film"),
+				directedBy(X,X9),
+				isA(X,"entity"),
+					citizenOf(X6,X10),
+					citizenOf(X7,X12),
+					citizenOf(X9,X10),
+					citizenOf(X9,X1),
+					citizenOf(X9,"United States").
+ 
+%=========================================================================
+ 
+% U_030 = {"The Prestige", "The Dark Knight", "Billy Wilder"} 
+ 
+characterization(030,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_031 = {"The Prestige", "The Dark Knight", "Francis Veber"} 
+ 
+characterization(031,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_032 = {"The Prestige", "The Dark Knight", "Jack Lemmon"} 
+ 
+characterization(032,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_033 = {"The Prestige", "The Dark Knight", "Heron Productions"} 
+ 
+characterization(033,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_034 = {"The Prestige", "The Dark Knight", "City of Women"} 
+ 
+characterization(034,X) :-	releasedIn(X,X1),
+				hasPeriod(X,X3),
+				producedBy(X,X4),
+				hasGenre(X,X5),
+				starring(X,X6),
+				writtenBy(X,X7),
+				hasRating(X,X8),
+				isA(X,"Film"),
+				directedBy(X,X9),
+				isA(X,"entity"),
+					citizenOf(X6,X10),
+					citizenOf(X7,X10),
+					citizenOf(X7,X1),
+					citizenOf(X9,X10),
+					citizenOf(X9,X1).
+ 
+%=========================================================================
+ 
+% U_035 = {"The Prestige", "The Dark Knight", "Federico Fellini"} 
+ 
+characterization(035,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_036 = {"The Prestige", "The Dark Knight", "Marcello Mastroianni"} 
+ 
+characterization(036,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_037 = {"The Prestige", "The Dark Knight", "Italy"} 
+ 
+characterization(037,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_038 = {"The Prestige", "The Dark Knight", "Opera Film Produzione"} 
+ 
+characterization(038,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_039 = {"The Prestige", "The Dark Knight", "Indiana Jones and the Raiders of the Lost Ark"} 
+ 
+characterization(039,X) :-	releasedIn(X,X1),
+				hasPeriod(X,X3),
+				producedBy(X,X4),
+				hasGenre(X,X5),
+				starring(X,X6),
+				writtenBy(X,X7),
+				hasRating(X,X8),
+				isA(X,"Film"),
+				directedBy(X,X9),
+				isA(X,"entity"),
+					citizenOf(X6,X10),
+					citizenOf(X7,X10),
+					citizenOf(X7,X1),
+					citizenOf(X7,"United States"),
+					citizenOf(X9,X10),
+					citizenOf(X9,X1),
+					citizenOf(X9,"United States").
+ 
+%=========================================================================
+ 
+% U_040 = {"The Prestige", "The Dark Knight", "Action"} 
+ 
+characterization(040,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_041 = {"The Prestige", "The Dark Knight", "Steven Spielberg"} 
+ 
+characterization(041,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_042 = {"The Prestige", "The Dark Knight", "Lawrence Kasdan"} 
+ 
+characterization(042,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_043 = {"The Prestige", "The Dark Knight", "Harrison Ford"} 
+ 
+characterization(043,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_044 = {"The Prestige", "The Dark Knight", "Paramount Pictures"} 
+ 
+characterization(044,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_045 = {"The Prestige", "The Dark Knight", "One from the Heart"} 
+ 
+characterization(045,X) :-	releasedIn(X,X1),
+				hasPeriod(X,X3),
+				producedBy(X,X4),
+				hasGenre(X,X5),
+				starring(X,X6),
+				writtenBy(X,X7),
+				hasRating(X,X8),
+				isA(X,"Film"),
+				directedBy(X,X9),
+				isA(X,"entity"),
+					citizenOf(X6,X10),
+					citizenOf(X7,X10),
+					citizenOf(X7,X1),
+					citizenOf(X7,"United States"),
+					citizenOf(X9,X10),
+					citizenOf(X9,X1),
+					citizenOf(X9,"United States").
+ 
+%=========================================================================
+ 
+% U_046 = {"The Prestige", "The Dark Knight", "Francis Ford Coppola"} 
+ 
+characterization(046,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_047 = {"The Prestige", "The Dark Knight", "Armyan Bernstein"} 
+ 
+characterization(047,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_048 = {"The Prestige", "The Dark Knight", "Frederic Forrest"} 
+ 
+characterization(048,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_049 = {"The Prestige", "The Dark Knight", "Zoetrope Studios"} 
+ 
+characterization(049,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_050 = {"The Prestige", "The Dark Knight", "E.T. the Extra-Terrestrial"} 
+ 
+characterization(050,X) :-	releasedIn(X,X1),
+				hasPeriod(X,X3),
+				producedBy(X,X4),
+				hasGenre(X,X5),
+				starring(X,X6),
+				writtenBy(X,X7),
+				hasRating(X,X8),
+				isA(X,"Film"),
+				directedBy(X,X9),
+				isA(X,"entity"),
+					citizenOf(X6,X10),
+					citizenOf(X7,X10),
+					citizenOf(X7,X1),
+					citizenOf(X7,"United States"),
+					citizenOf(X9,X10),
+					citizenOf(X9,X1),
+					citizenOf(X9,"United States").
+ 
+%=========================================================================
+ 
+% U_051 = {"The Prestige", "The Dark Knight", "Family"} 
+ 
+characterization(051,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_052 = {"The Prestige", "The Dark Knight", "Melissa Mathison"} 
+ 
+characterization(052,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_053 = {"The Prestige", "The Dark Knight", "Henry Thomas"} 
+ 
+characterization(053,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_054 = {"The Prestige", "The Dark Knight", "Universal Pictures"} 
+ 
+characterization(054,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_055 = {"The Prestige", "The Dark Knight", "A Midsummer Night's Sex Comedy"} 
+ 
+characterization(055,X) :-	releasedIn(X,X1),
+				hasPeriod(X,X3),
+				producedBy(X,X4),
+				hasGenre(X,X5),
+				starring(X,X6),
+				writtenBy(X,X7),
+				hasRating(X,X8),
+				isA(X,"Film"),
+				directedBy(X,X9),
+				isA(X,"entity"),
+					citizenOf(X6,X10),
+					citizenOf(X7,X10),
+					citizenOf(X7,X1),
+					citizenOf(X7,"United States"),
+					citizenOf(X9,X10),
+					citizenOf(X9,X1),
+					citizenOf(X9,"United States").
+ 
+%=========================================================================
+ 
+% U_056 = {"The Prestige", "The Dark Knight", "The Outsiders"} 
+ 
+characterization(056,X) :-	releasedIn(X,X1),
+				hasPeriod(X,X3),
+				producedBy(X,X4),
+				hasGenre(X,X5),
+				starring(X,X6),
+				writtenBy(X,X7),
+				hasRating(X,X8),
+				isA(X,"Film"),
+				directedBy(X,X9),
+				isA(X,"entity"),
+					citizenOf(X6,X10),
+					citizenOf(X9,X10),
+					citizenOf(X9,X1),
+					citizenOf(X9,"United States").
+ 
+%=========================================================================
+ 
+% U_057 = {"The Prestige", "The Dark Knight", "Crime"} 
+ 
+characterization(057,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_058 = {"The Prestige", "The Dark Knight", "Kathleen Rowell"} 
+ 
+characterization(058,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_059 = {"The Prestige", "The Dark Knight", "C. Thomas Howell"} 
+ 
+characterization(059,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_060 = {"The Prestige", "The Dark Knight", "Rumble Fish"} 
+ 
+characterization(060,X) :-	releasedIn(X,X1),
+				hasPeriod(X,X3),
+				producedBy(X,X4),
+				hasGenre(X,X5),
+				starring(X,X6),
+				writtenBy(X,X7),
+				hasRating(X,X8),
+				isA(X,"Film"),
+				directedBy(X,X9),
+				isA(X,"entity"),
+					citizenOf(X6,X10),
+					citizenOf(X7,X10),
+					citizenOf(X7,X1),
+					citizenOf(X7,"United States"),
+					citizenOf(X9,X10),
+					citizenOf(X9,X1),
+					citizenOf(X9,"United States").
+ 
+%=========================================================================
+ 
+% U_061 = {"The Prestige", "The Dark Knight", "S.E. Hinton"} 
+ 
+characterization(061,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_062 = {"The Prestige", "The Dark Knight", "Matt Dillon"} 
+ 
+characterization(062,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_063 = {"The Prestige", "The Dark Knight", "The King of Comedy"} 
+ 
+characterization(063,X) :-	releasedIn(X,X1),
+				hasPeriod(X,X3),
+				producedBy(X,X4),
+				hasGenre(X,X5),
+				starring(X,X6),
+				writtenBy(X,X7),
+				hasRating(X,X8),
+				isA(X,"Film"),
+				directedBy(X,X9),
+				isA(X,"entity"),
+					citizenOf(X6,X10),
+					citizenOf(X7,X10),
+					citizenOf(X7,X1),
+					citizenOf(X7,"United States"),
+					citizenOf(X9,X10),
+					citizenOf(X9,X1),
+					citizenOf(X9,"United States").
+ 
+%=========================================================================
+ 
+% U_064 = {"The Prestige", "The Dark Knight", "Paul D. Zimmerman"} 
+ 
+characterization(064,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_065 = {"The Prestige", "The Dark Knight", "Embassy International Pictures"} 
+ 
+characterization(065,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_066 = {"The Prestige", "The Dark Knight", "Zelig"} 
+ 
+characterization(066,X) :-	releasedIn(X,X1),
+				hasPeriod(X,X3),
+				producedBy(X,X4),
+				hasGenre(X,X5),
+				starring(X,X6),
+				writtenBy(X,X7),
+				hasRating(X,X8),
+				isA(X,"Film"),
+				directedBy(X,X9),
+				isA(X,"entity"),
+					citizenOf(X6,X10),
+					citizenOf(X7,X10),
+					citizenOf(X7,X1),
+					citizenOf(X7,"United States"),
+					citizenOf(X9,X10),
+					citizenOf(X9,X1),
+					citizenOf(X9,"United States").
+ 
+%=========================================================================
+ 
+% U_067 = {"The Prestige", "The Dark Knight", "Dune"} 
+ 
+characterization(067,X) :-	releasedIn(X,X1),
+				hasPeriod(X,X3),
+				producedBy(X,X4),
+				hasGenre(X,X5),
+				starring(X,X6),
+				writtenBy(X,X7),
+				hasRating(X,"PG-13"),
+				isA(X,"Film"),
+				directedBy(X,X8),
+				isA(X,"entity"),
+					citizenOf(X6,X9),
+					citizenOf(X7,X9),
+					citizenOf(X7,X1),
+					citizenOf(X7,"United States"),
+					citizenOf(X8,X9),
+					citizenOf(X8,X1),
+					citizenOf(X8,"United States").
+ 
+%=========================================================================
+ 
+% U_068 = {"The Prestige", "The Dark Knight", "PG-13"} 
+ 
+characterization(068,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_069 = {"The Prestige", "The Dark Knight", "David Lynch"} 
+ 
+characterization(069,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_070 = {"The Prestige", "The Dark Knight", "Frank Herbert"} 
+ 
+characterization(070,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_071 = {"The Prestige", "The Dark Knight", "Kyle MacLachlan"} 
+ 
+characterization(071,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_072 = {"The Prestige", "The Dark Knight", "Dino De Laurentiis Company"} 
+ 
+characterization(072,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_073 = {"The Prestige", "The Dark Knight", "The Cotton Club"} 
+ 
+characterization(073,X) :-	releasedIn(X,X1),
+				hasPeriod(X,X3),
+				producedBy(X,X4),
+				hasGenre(X,X5),
+				starring(X,X6),
+				writtenBy(X,X7),
+				hasRating(X,X8),
+				isA(X,"Film"),
+				directedBy(X,X9),
+				isA(X,"entity"),
+					citizenOf(X6,X10),
+					citizenOf(X7,X10),
+					citizenOf(X7,X1),
+					citizenOf(X7,"United States"),
+					citizenOf(X9,X10),
+					citizenOf(X9,X1),
+					citizenOf(X9,"United States").
+ 
+%=========================================================================
+ 
+% U_074 = {"The Prestige", "The Dark Knight", "William Kennedy"} 
+ 
+characterization(074,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_075 = {"The Prestige", "The Dark Knight", "Richard Gere"} 
+ 
+characterization(075,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_076 = {"The Prestige", "The Dark Knight", "Indiana Jones and the Temple of Doom"} 
+ 
+characterization(076,X) :-	releasedIn(X,X1),
+				hasPeriod(X,X3),
+				producedBy(X,X4),
+				hasGenre(X,X5),
+				starring(X,X6),
+				writtenBy(X,X7),
+				hasRating(X,X8),
+				isA(X,"Film"),
+				directedBy(X,X9),
+				isA(X,"entity"),
+					citizenOf(X6,X10),
+					citizenOf(X7,X10),
+					citizenOf(X7,X1),
+					citizenOf(X7,"United States"),
+					citizenOf(X9,X10),
+					citizenOf(X9,X1),
+					citizenOf(X9,"United States").
+ 
+%=========================================================================
+ 
+% U_077 = {"The Prestige", "The Dark Knight", "Willard Huyck"} 
+ 
+characterization(077,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_078 = {"The Prestige", "The Dark Knight", "Broadway Danny Rose"} 
+ 
+characterization(078,X) :-	releasedIn(X,X1),
+				hasPeriod(X,X3),
+				producedBy(X,X4),
+				hasGenre(X,X5),
+				starring(X,X6),
+				writtenBy(X,X7),
+				hasRating(X,X8),
+				isA(X,"Film"),
+				directedBy(X,X9),
+				isA(X,"entity"),
+					citizenOf(X6,X10),
+					citizenOf(X7,X10),
+					citizenOf(X7,X1),
+					citizenOf(X7,"United States"),
+					citizenOf(X9,X10),
+					citizenOf(X9,X1),
+					citizenOf(X9,"United States").
+ 
+%=========================================================================
+ 
+% U_079 = {"The Prestige", "The Dark Knight", "Orion Pictures"} 
+ 
+characterization(079,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_080 = {"The Prestige", "The Dark Knight", "After Hours"} 
+ 
+characterization(080,X) :-	releasedIn(X,X1),
+				hasPeriod(X,X3),
+				producedBy(X,X4),
+				hasGenre(X,X5),
+				starring(X,X6),
+				writtenBy(X,X7),
+				hasRating(X,X8),
+				isA(X,"Film"),
+				directedBy(X,X9),
+				isA(X,"entity"),
+					citizenOf(X6,X10),
+					citizenOf(X7,X10),
+					citizenOf(X7,X1),
+					citizenOf(X7,"United States"),
+					citizenOf(X9,X10),
+					citizenOf(X9,X1),
+					citizenOf(X9,"United States").
+ 
+%=========================================================================
+ 
+% U_081 = {"The Prestige", "The Dark Knight", "Joseph Minion"} 
+ 
+characterization(081,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_082 = {"The Prestige", "The Dark Knight", "Griffin Dunne"} 
+ 
+characterization(082,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_083 = {"The Prestige", "The Dark Knight", "The Geffen Company"} 
+ 
+characterization(083,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_084 = {"The Prestige", "The Dark Knight", "The Purple Rose of Cairo"} 
+ 
+characterization(084,X) :-	releasedIn(X,X1),
+				hasPeriod(X,X3),
+				producedBy(X,X4),
+				hasGenre(X,X5),
+				starring(X,X6),
+				writtenBy(X,X7),
+				hasRating(X,X8),
+				isA(X,"Film"),
+				directedBy(X,X9),
+				isA(X,"entity"),
+					citizenOf(X6,X10),
+					citizenOf(X7,X10),
+					citizenOf(X7,X1),
+					citizenOf(X7,"United States"),
+					citizenOf(X9,X10),
+					citizenOf(X9,X1),
+					citizenOf(X9,"United States").
+ 
+%=========================================================================
+ 
+% U_085 = {"The Prestige", "The Dark Knight", "Mia Farrow"} 
+ 
+characterization(085,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_086 = {"The Prestige", "The Dark Knight", "Blue Velvet"} 
+ 
+characterization(086,X) :-	releasedIn(X,X1),
+				hasPeriod(X,X3),
+				producedBy(X,X4),
+				hasGenre(X,X5),
+				starring(X,X6),
+				writtenBy(X,X7),
+				hasRating(X,X8),
+				isA(X,"Film"),
+				directedBy(X,X9),
+				isA(X,"entity"),
+					citizenOf(X6,X10),
+					citizenOf(X7,X10),
+					citizenOf(X7,X1),
+					citizenOf(X7,"United States"),
+					citizenOf(X9,X10),
+					citizenOf(X9,X1),
+					citizenOf(X9,"United States").
+ 
+%=========================================================================
+ 
+% U_087 = {"The Prestige", "The Dark Knight", "Isabella Rossellini"} 
+ 
+characterization(087,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_088 = {"The Prestige", "The Dark Knight", "De Laurentiis Entertainment Group [DEG]"} 
+ 
+characterization(088,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_089 = {"The Prestige", "The Dark Knight", "Ginger and Fred"} 
+ 
+characterization(089,X) :-	releasedIn(X,X1),
+				hasPeriod(X,X3),
+				producedBy(X,X4),
+				hasGenre(X,X5),
+				starring(X,X6),
+				writtenBy(X,X7),
+				hasRating(X,"PG-13"),
+				isA(X,"Film"),
+				directedBy(X,X8),
+				isA(X,"entity"),
+					citizenOf(X6,X9),
+					citizenOf(X7,X9),
+					citizenOf(X7,X1),
+					citizenOf(X8,X9),
+					citizenOf(X8,X1).
+ 
+%=========================================================================
+ 
+% U_090 = {"The Prestige", "The Dark Knight", "Produzioni Europee Associate [PEA]"} 
+ 
+characterization(090,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_091 = {"The Prestige", "The Dark Knight", "Peggy Sue Got Married"} 
+ 
+characterization(091,X) :-	releasedIn(X,X1),
+				hasPeriod(X,X3),
+				producedBy(X,X4),
+				hasGenre(X,X5),
+				starring(X,X6),
+				writtenBy(X,X7),
+				hasRating(X,"PG-13"),
+				isA(X,"Film"),
+				directedBy(X,X8),
+				isA(X,"entity"),
+					citizenOf(X6,X9),
+					citizenOf(X7,X9),
+					citizenOf(X7,X1),
+					citizenOf(X7,"United States"),
+					citizenOf(X8,X9),
+					citizenOf(X8,X1),
+					citizenOf(X8,"United States").
+ 
+%=========================================================================
+ 
+% U_092 = {"The Prestige", "The Dark Knight", "Jerry Leichtling"} 
+ 
+characterization(092,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_093 = {"The Prestige", "The Dark Knight", "Kathleen Turner"} 
+ 
+characterization(093,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_094 = {"The Prestige", "The Dark Knight", "TriStar Pictures"} 
+ 
+characterization(094,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_095 = {"The Prestige", "The Dark Knight", "The Color of Money"} 
+ 
+characterization(095,X) :-	releasedIn(X,X1),
+				hasPeriod(X,X3),
+				producedBy(X,X4),
+				hasGenre(X,X5),
+				starring(X,X6),
+				writtenBy(X,X7),
+				hasRating(X,X8),
+				isA(X,"Film"),
+				directedBy(X,X9),
+				isA(X,"entity"),
+					citizenOf(X6,X10),
+					citizenOf(X7,X10),
+					citizenOf(X7,X1),
+					citizenOf(X7,"United States"),
+					citizenOf(X9,X10),
+					citizenOf(X9,X1),
+					citizenOf(X9,"United States").
+ 
+%=========================================================================
+ 
+% U_096 = {"The Prestige", "The Dark Knight", "Walter Tevis"} 
+ 
+characterization(096,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_097 = {"The Prestige", "The Dark Knight", "Paul Newman"} 
+ 
+characterization(097,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_098 = {"The Prestige", "The Dark Knight", "Touchstone Pictures"} 
+ 
+characterization(098,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_099 = {"The Prestige", "The Dark Knight", "The Color Purple"} 
+ 
+characterization(099,X) :-	releasedIn(X,X1),
+				hasPeriod(X,X3),
+				producedBy(X,X4),
+				hasGenre(X,X5),
+				starring(X,X6),
+				writtenBy(X,X7),
+				hasRating(X,"PG-13"),
+				isA(X,"Film"),
+				directedBy(X,X8),
+				isA(X,"entity"),
+					citizenOf(X6,X9),
+					citizenOf(X7,X11),
+					citizenOf(X8,X9),
+					citizenOf(X8,X1),
+					citizenOf(X8,"United States").
+ 
+%=========================================================================
+ 
+% U_100 = {"The Prestige", "The Dark Knight", "Menno Meyjes"} 
+ 
+characterization(100,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_101 = {"The Prestige", "The Dark Knight", "Danny Glover"} 
+ 
+characterization(101,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_102 = {"The Prestige", "The Dark Knight", "Amblin Entertainment"} 
+ 
+characterization(102,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_103 = {"The Prestige", "The Dark Knight", "Hannah and Her Sisters"} 
+ 
+characterization(103,X) :-	releasedIn(X,X1),
+				hasPeriod(X,X3),
+				producedBy(X,X4),
+				hasGenre(X,X5),
+				starring(X,X6),
+				writtenBy(X,X7),
+				hasRating(X,"PG-13"),
+				isA(X,"Film"),
+				directedBy(X,X8),
+				isA(X,"entity"),
+					citizenOf(X6,X9),
+					citizenOf(X7,X9),
+					citizenOf(X7,X1),
+					citizenOf(X7,"United States"),
+					citizenOf(X8,X9),
+					citizenOf(X8,X1),
+					citizenOf(X8,"United States").
+ 
+%=========================================================================
+ 
+% U_104 = {"The Prestige", "The Dark Knight", "Gardens of Stone"} 
+ 
+characterization(104,X) :-	releasedIn(X,X1),
+				hasPeriod(X,X3),
+				producedBy(X,X4),
+				hasGenre(X,X5),
+				starring(X,X6),
+				writtenBy(X,X7),
+				hasRating(X,X8),
+				isA(X,"Film"),
+				directedBy(X,X9),
+				isA(X,"entity"),
+					citizenOf(X6,X10),
+					citizenOf(X7,X10),
+					citizenOf(X7,X1),
+					citizenOf(X7,"United States"),
+					citizenOf(X9,X10),
+					citizenOf(X9,X1),
+					citizenOf(X9,"United States").
+ 
+%=========================================================================
+ 
+% U_105 = {"The Prestige", "The Dark Knight", "Nicholas Proffitt"} 
+ 
+characterization(105,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_106 = {"The Prestige", "The Dark Knight", "James Caan"} 
+ 
+characterization(106,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_107 = {"The Prestige", "The Dark Knight", "Full Metal Jacket"} 
+ 
+characterization(107,X) :-	releasedIn(X,X1),
+				hasPeriod(X,X3),
+				producedBy(X,X4),
+				hasGenre(X,X5),
+				starring(X,X6),
+				writtenBy(X,X7),
+				hasRating(X,X8),
+				isA(X,"Film"),
+				directedBy(X,X9),
+				isA(X,"entity"),
+					citizenOf(X6,X10),
+					citizenOf(X7,X10),
+					citizenOf(X7,"United States"),
+					citizenOf(X9,X10),
+					citizenOf(X9,"United States").
+ 
+%=========================================================================
+ 
+% U_108 = {"The Prestige", "The Dark Knight", "Matthew Modine"} 
+ 
+characterization(108,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_109 = {"The Prestige", "The Dark Knight", "Natant"} 
+ 
+characterization(109,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_110 = {"The Prestige", "The Dark Knight", "Empire of the Sun"} 
+ 
+characterization(110,X) :-	releasedIn(X,X1),
+				hasPeriod(X,X3),
+				producedBy(X,X4),
+				hasGenre(X,X5),
+				starring(X,"Christian Bale"),
+				writtenBy(X,X6),
+				hasRating(X,X7),
+				isA(X,"Film"),
+				directedBy(X,X8),
+				isA(X,"entity"),
+					citizenOf("Christian Bale","United Kingdom"),
+					citizenOf(X6,"United Kingdom"),
+					citizenOf(X8,X1),
+					citizenOf(X8,"United States").
+ 
+%=========================================================================
+ 
+% U_111 = {"The Prestige", "The Dark Knight", "Tom Stoppard"} 
+ 
+characterization(111,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_112 = {"The Prestige", "The Dark Knight", "Christian Bale"} 
+ 
+characterization(112,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_113 = {"The Prestige", "The Dark Knight", "September"} 
+ 
+characterization(113,X) :-	releasedIn(X,X1),
+				hasPeriod(X,X3),
+				producedBy(X,X4),
+				hasGenre(X,X5),
+				starring(X,X6),
+				writtenBy(X,X7),
+				hasRating(X,X8),
+				isA(X,"Film"),
+				directedBy(X,X9),
+				isA(X,"entity"),
+					citizenOf(X6,X10),
+					citizenOf(X7,X10),
+					citizenOf(X7,X1),
+					citizenOf(X7,"United States"),
+					citizenOf(X9,X10),
+					citizenOf(X9,X1),
+					citizenOf(X9,"United States").
+ 
+%=========================================================================
+ 
+% U_114 = {"The Prestige", "The Dark Knight", "Elaine Stritch"} 
+ 
+characterization(114,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_115 = {"The Prestige", "The Dark Knight", "Radio Days"} 
+ 
+characterization(115,X) :-	releasedIn(X,X1),
+				hasPeriod(X,X3),
+				producedBy(X,X4),
+				hasGenre(X,X5),
+				starring(X,X6),
+				writtenBy(X,X7),
+				hasRating(X,X8),
+				isA(X,"Film"),
+				directedBy(X,X9),
+				isA(X,"entity"),
+					citizenOf(X6,X10),
+					citizenOf(X7,X10),
+					citizenOf(X7,X1),
+					citizenOf(X7,"United States"),
+					citizenOf(X9,X10),
+					citizenOf(X9,X1),
+					citizenOf(X9,"United States").
+ 
+%=========================================================================
+ 
+% U_116 = {"The Prestige", "The Dark Knight", "Tucker: The Man and His Dream"} 
+ 
+characterization(116,X) :-	producedBy(X,X1),
+				releasedIn(X,X3),
+				starring(X,X4),
+				hasPeriod(X,X5),
+				hasGenre(X,X6),
+				directedBy(X,X7),
+				hasRating(X,X8),
+				writtenBy(X,X9),
+				isA(X,"Film"),
+				isA(X,"entity"),
+					citizenOf(X4,X10),
+					citizenOf(X7,X10),
+					citizenOf(X7,X3),
+					citizenOf(X7,"United States"),
+					citizenOf(X9,X10),
+					citizenOf(X9,X3),
+					citizenOf(X9,"United States").
+ 
+%=========================================================================
+ 
+% U_117 = {"The Prestige", "The Dark Knight", "90's"} 
+ 
+characterization(117,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_118 = {"The Prestige", "The Dark Knight", "Arnold Schulman"} 
+ 
+characterization(118,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_119 = {"The Prestige", "The Dark Knight", "Jeff Bridges"} 
+ 
+characterization(119,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_120 = {"The Prestige", "The Dark Knight", "Lucasfilm"} 
+ 
+characterization(120,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_121 = {"The Prestige", "The Dark Knight", "The Last Temptation of Christ"} 
+ 
+characterization(121,X) :-	producedBy(X,X1),
+				releasedIn(X,X3),
+				starring(X,X4),
+				hasPeriod(X,X5),
+				hasGenre(X,X6),
+				directedBy(X,X7),
+				hasRating(X,X8),
+				writtenBy(X,X9),
+				isA(X,"Film"),
+				isA(X,"entity"),
+					citizenOf(X4,X10),
+					citizenOf(X7,X10),
+					citizenOf(X7,"United States"),
+					citizenOf(X9,X12).
+ 
+%=========================================================================
+ 
+% U_122 = {"The Prestige", "The Dark Knight", "Nikos Kazantzakis"} 
+ 
+characterization(122,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_123 = {"The Prestige", "The Dark Knight", "Willem Dafoe"} 
+ 
+characterization(123,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_124 = {"The Prestige", "The Dark Knight", "Canada"} 
+ 
+characterization(124,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_125 = {"The Prestige", "The Dark Knight", "Another Woman"} 
+ 
+characterization(125,X) :-	producedBy(X,X1),
+				releasedIn(X,X3),
+				starring(X,X4),
+				hasPeriod(X,X5),
+				hasGenre(X,X6),
+				directedBy(X,X7),
+				hasRating(X,X8),
+				writtenBy(X,X9),
+				isA(X,"Film"),
+				isA(X,"entity"),
+					citizenOf(X4,X10),
+					citizenOf(X7,X10),
+					citizenOf(X7,X3),
+					citizenOf(X7,"United States"),
+					citizenOf(X9,X10),
+					citizenOf(X9,X3),
+					citizenOf(X9,"United States").
+ 
+%=========================================================================
+ 
+% U_126 = {"The Prestige", "The Dark Knight", "Gena Rowlands"} 
+ 
+characterization(126,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_127 = {"The Prestige", "The Dark Knight", "Indiana Jones and the Last Crusade"} 
+ 
+characterization(127,X) :-	producedBy(X,X1),
+				releasedIn(X,X3),
+				starring(X,X4),
+				hasPeriod(X,X5),
+				hasGenre(X,X6),
+				directedBy(X,X7),
+				hasRating(X,"PG-13"),
+				writtenBy(X,X8),
+				isA(X,"Film"),
+				isA(X,"entity"),
+					citizenOf(X4,X9),
+					citizenOf(X7,X9),
+					citizenOf(X7,X3),
+					citizenOf(X7,"United States"),
+					citizenOf(X8,X9),
+					citizenOf(X8,X3),
+					citizenOf(X8,"United States").
+ 
+%=========================================================================
+ 
+% U_128 = {"The Prestige", "The Dark Knight", "Jeffrey Boam"} 
+ 
+characterization(128,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_129 = {"The Prestige", "The Dark Knight", "Always"} 
+ 
+characterization(129,X) :-	producedBy(X,X1),
+				releasedIn(X,X3),
+				starring(X,X4),
+				hasPeriod(X,X5),
+				hasGenre(X,X6),
+				directedBy(X,X7),
+				hasRating(X,X8),
+				writtenBy(X,X9),
+				isA(X,"Film"),
+				isA(X,"entity"),
+					citizenOf(X4,X10),
+					citizenOf(X7,X10),
+					citizenOf(X7,X3),
+					citizenOf(X7,"United States"),
+					citizenOf(X9,X10),
+					citizenOf(X9,X3),
+					citizenOf(X9,"United States").
+ 
+%=========================================================================
+ 
+% U_130 = {"The Prestige", "The Dark Knight", "Jerry Belson"} 
+ 
+characterization(130,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_131 = {"The Prestige", "The Dark Knight", "Richard Dreyfuss"} 
+ 
+characterization(131,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_132 = {"The Prestige", "The Dark Knight", "New York Stories"} 
+ 
+characterization(132,X) :-	producedBy(X,X1),
+				releasedIn(X,X3),
+				starring(X,X4),
+				hasPeriod(X,X5),
+				hasGenre(X,X6),
+				directedBy(X,X7),
+				hasRating(X,X8),
+				writtenBy(X,X9),
+				isA(X,"Film"),
+				isA(X,"entity"),
+					citizenOf(X4,X10),
+					citizenOf(X7,X10),
+					citizenOf(X7,X3),
+					citizenOf(X7,"United States"),
+					citizenOf(X9,X10),
+					citizenOf(X9,X3),
+					citizenOf(X9,"United States").
+ 
+%=========================================================================
+ 
+% U_133 = {"The Prestige", "The Dark Knight", "Richard Price"} 
+ 
+characterization(133,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_134 = {"The Prestige", "The Dark Knight", "Crimes and Misdemeanors"} 
+ 
+characterization(134,X) :-	producedBy(X,X1),
+				releasedIn(X,X3),
+				starring(X,X4),
+				hasPeriod(X,X5),
+				hasGenre(X,X6),
+				directedBy(X,X7),
+				hasRating(X,"PG-13"),
+				writtenBy(X,X8),
+				isA(X,"Film"),
+				isA(X,"entity"),
+					citizenOf(X4,X9),
+					citizenOf(X7,X9),
+					citizenOf(X7,X3),
+					citizenOf(X7,"United States"),
+					citizenOf(X8,X9),
+					citizenOf(X8,X3),
+					citizenOf(X8,"United States").
+ 
+%=========================================================================
+ 
+% U_135 = {"The Prestige", "The Dark Knight", "Martin Landau"} 
+ 
+characterization(135,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_136 = {"The Prestige", "The Dark Knight", "Wild at Heart"} 
+ 
+characterization(136,X) :-	producedBy(X,X1),
+				releasedIn(X,X3),
+				starring(X,X4),
+				hasPeriod(X,X5),
+				hasGenre(X,X6),
+				directedBy(X,X7),
+				hasRating(X,X8),
+				writtenBy(X,X9),
+				isA(X,"Film"),
+				isA(X,"entity"),
+					citizenOf(X4,X10),
+					citizenOf(X7,X10),
+					citizenOf(X7,X3),
+					citizenOf(X7,"United States"),
+					citizenOf(X9,X10),
+					citizenOf(X9,X3),
+					citizenOf(X9,"United States").
+ 
+%=========================================================================
+ 
+% U_137 = {"The Prestige", "The Dark Knight", "Barry Gifford"} 
+ 
+characterization(137,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_138 = {"The Prestige", "The Dark Knight", "Nicolas Cage"} 
+ 
+characterization(138,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_139 = {"The Prestige", "The Dark Knight", "PolyGram Filmed Entertainment"} 
+ 
+characterization(139,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_140 = {"The Prestige", "The Dark Knight", "The Godfather: Part III"} 
+ 
+characterization(140,X) :-	producedBy(X,X1),
+				releasedIn(X,X3),
+				starring(X,X4),
+				hasPeriod(X,X5),
+				hasGenre(X,X6),
+				directedBy(X,X7),
+				hasRating(X,X8),
+				writtenBy(X,X9),
+				isA(X,"Film"),
+				isA(X,"entity"),
+					citizenOf(X4,X10),
+					citizenOf(X7,X10),
+					citizenOf(X7,X3),
+					citizenOf(X7,"United States"),
+					citizenOf(X9,X10),
+					citizenOf(X9,X3),
+					citizenOf(X9,"United States").
+ 
+%=========================================================================
+ 
+% U_141 = {"The Prestige", "The Dark Knight", "Mario Puzo"} 
+ 
+characterization(141,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_142 = {"The Prestige", "The Dark Knight", "Al Pacino"} 
+ 
+characterization(142,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_143 = {"The Prestige", "The Dark Knight", "Goodfellas"} 
+ 
+characterization(143,X) :-	producedBy(X,X1),
+				releasedIn(X,X3),
+				starring(X,X4),
+				hasPeriod(X,X5),
+				hasGenre(X,X6),
+				directedBy(X,X7),
+				hasRating(X,X8),
+				writtenBy(X,X9),
+				isA(X,"Film"),
+				isA(X,"entity"),
+					citizenOf(X4,X10),
+					citizenOf(X7,X10),
+					citizenOf(X7,X3),
+					citizenOf(X7,"United States"),
+					citizenOf(X9,X10),
+					citizenOf(X9,X3),
+					citizenOf(X9,"United States").
+ 
+%=========================================================================
+ 
+% U_144 = {"The Prestige", "The Dark Knight", "Nicholas Pileggi"} 
+ 
+characterization(144,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_145 = {"The Prestige", "The Dark Knight", "Cape Fear"} 
+ 
+characterization(145,X) :-	producedBy(X,X1),
+				releasedIn(X,X3),
+				starring(X,X4),
+				hasPeriod(X,X5),
+				hasGenre(X,X6),
+				directedBy(X,X7),
+				hasRating(X,X8),
+				writtenBy(X,X9),
+				isA(X,"Film"),
+				isA(X,"entity"),
+					citizenOf(X4,X10),
+					citizenOf(X7,X10),
+					citizenOf(X7,X3),
+					citizenOf(X7,"United States"),
+					citizenOf(X9,X10),
+					citizenOf(X9,X3),
+					citizenOf(X9,"United States").
+ 
+%=========================================================================
+ 
+% U_146 = {"The Prestige", "The Dark Knight", "John D. MacDonald"} 
+ 
+characterization(146,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_147 = {"The Prestige", "The Dark Knight", "Hook"} 
+ 
+characterization(147,X) :-	producedBy(X,X1),
+				releasedIn(X,X3),
+				starring(X,X4),
+				hasPeriod(X,X5),
+				hasGenre(X,X6),
+				directedBy(X,X7),
+				hasRating(X,X8),
+				writtenBy(X,X9),
+				isA(X,"Film"),
+				isA(X,"entity"),
+					citizenOf(X4,X10),
+					citizenOf(X7,X10),
+					citizenOf(X7,X3),
+					citizenOf(X7,"United States"),
+					citizenOf(X9,"United Kingdom").
+ 
+%=========================================================================
+ 
+% U_148 = {"The Prestige", "The Dark Knight", "Adventure"} 
+ 
+characterization(148,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_149 = {"The Prestige", "The Dark Knight", "J.M. Barrie"} 
+ 
+characterization(149,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_150 = {"The Prestige", "The Dark Knight", "Dustin Hoffman"} 
+ 
+characterization(150,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_151 = {"The Prestige", "The Dark Knight", "Alice"} 
+ 
+characterization(151,X) :-	producedBy(X,X1),
+				releasedIn(X,X3),
+				starring(X,X4),
+				hasPeriod(X,X5),
+				hasGenre(X,X6),
+				directedBy(X,X7),
+				hasRating(X,"PG-13"),
+				writtenBy(X,X8),
+				isA(X,"Film"),
+				isA(X,"entity"),
+					citizenOf(X4,X9),
+					citizenOf(X7,X9),
+					citizenOf(X7,X3),
+					citizenOf(X7,"United States"),
+					citizenOf(X8,X9),
+					citizenOf(X8,X3),
+					citizenOf(X8,"United States").
+ 
+%=========================================================================
+ 
+% U_152 = {"The Prestige", "The Dark Knight", "Twin Peaks: Fire Walk with Me"} 
+ 
+characterization(152,X) :-	releasedIn(X,X1),
+				hasPeriod(X,X3),
+				producedBy(X,X4),
+				hasGenre(X,X5),
+				starring(X,X6),
+				writtenBy(X,X7),
+				hasRating(X,X8),
+				isA(X,"Film"),
+				directedBy(X,X9),
+				isA(X,"entity"),
+					citizenOf(X6,X10),
+					citizenOf(X7,X10),
+					citizenOf(X7,"United States"),
+					citizenOf(X9,X10),
+					citizenOf(X9,"United States").
+ 
+%=========================================================================
+ 
+% U_153 = {"The Prestige", "The Dark Knight", "Sheryl Lee"} 
+ 
+characterization(153,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_154 = {"The Prestige", "The Dark Knight", "France"} 
+ 
+characterization(154,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_155 = {"The Prestige", "The Dark Knight", "New Line Cinema"} 
+ 
+characterization(155,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_156 = {"The Prestige", "The Dark Knight", "Intervista"} 
+ 
+characterization(156,X) :-	producedBy(X,X1),
+				releasedIn(X,X3),
+				starring(X,X4),
+				writtenBy(X,X5),
+				directedBy(X,X6),
+				hasPeriod(X,X7),
+				isA(X,"Film"),
+				hasGenre(X,X8),
+				isA(X,"entity"),
+					citizenOf(X4,X9),
+					citizenOf(X5,X9),
+					citizenOf(X5,X3),
+					citizenOf(X6,X9),
+					citizenOf(X6,X3).
+ 
+%=========================================================================
+ 
+% U_157 = {"The Prestige", "The Dark Knight", "Sergio Rubini"} 
+ 
+characterization(157,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_158 = {"The Prestige", "The Dark Knight", "Aljosha"} 
+ 
+characterization(158,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_159 = {"The Prestige", "The Dark Knight", "Dracula"} 
+ 
+characterization(159,X) :-	releasedIn(X,X1),
+				hasPeriod(X,X3),
+				producedBy(X,X4),
+				hasGenre(X,X5),
+				starring(X,X6),
+				writtenBy(X,X7),
+				hasRating(X,X8),
+				isA(X,"Film"),
+				directedBy(X,X9),
+				isA(X,"entity"),
+					citizenOf(X6,"United Kingdom"),
+					citizenOf(X7,"United Kingdom"),
+					citizenOf(X7,X1),
+					citizenOf(X9,"United States").
+ 
+%=========================================================================
+ 
+% U_160 = {"The Prestige", "The Dark Knight", "Horror"} 
+ 
+characterization(160,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_161 = {"The Prestige", "The Dark Knight", "Bram Stoker"} 
+ 
+characterization(161,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_162 = {"The Prestige", "The Dark Knight", "Gary Oldman"} 
+ 
+characterization(162,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_163 = {"The Prestige", "The Dark Knight", "American Zoetrope"} 
+ 
+characterization(163,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_164 = {"The Prestige", "The Dark Knight", "Reservoir Dogs"} 
+ 
+characterization(164,X) :-	releasedIn(X,X1),
+				hasPeriod(X,X3),
+				producedBy(X,X4),
+				hasGenre(X,X5),
+				starring(X,X6),
+				writtenBy(X,X7),
+				hasRating(X,X8),
+				isA(X,"Film"),
+				directedBy(X,X9),
+				isA(X,"entity"),
+					citizenOf(X6,X10),
+					citizenOf(X7,X10),
+					citizenOf(X7,X1),
+					citizenOf(X7,"United States"),
+					citizenOf(X9,X10),
+					citizenOf(X9,X1),
+					citizenOf(X9,"United States").
+ 
+%=========================================================================
+ 
+% U_165 = {"The Prestige", "The Dark Knight", "Quentin Tarantino"} 
+ 
+characterization(165,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_166 = {"The Prestige", "The Dark Knight", "Harvey Keitel"} 
+ 
+characterization(166,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_167 = {"The Prestige", "The Dark Knight", "Live Entertainment"} 
+ 
+characterization(167,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_168 = {"The Prestige", "The Dark Knight", "Shadows and Fog"} 
+ 
+characterization(168,X) :-	releasedIn(X,X1),
+				hasPeriod(X,X3),
+				producedBy(X,X4),
+				hasGenre(X,X5),
+				starring(X,X6),
+				writtenBy(X,X7),
+				hasRating(X,"PG-13"),
+				isA(X,"Film"),
+				directedBy(X,X8),
+				isA(X,"entity"),
+					citizenOf(X6,X9),
+					citizenOf(X7,X9),
+					citizenOf(X7,X1),
+					citizenOf(X7,"United States"),
+					citizenOf(X8,X9),
+					citizenOf(X8,X1),
+					citizenOf(X8,"United States").
+ 
+%=========================================================================
+ 
+% U_169 = {"The Prestige", "The Dark Knight", "Husbands and Wives"} 
+ 
+characterization(169,X) :-	releasedIn(X,X1),
+				hasPeriod(X,X3),
+				producedBy(X,X4),
+				hasGenre(X,X5),
+				starring(X,X6),
+				writtenBy(X,X7),
+				hasRating(X,X8),
+				isA(X,"Film"),
+				directedBy(X,X9),
+				isA(X,"entity"),
+					citizenOf(X6,X10),
+					citizenOf(X7,X10),
+					citizenOf(X7,X1),
+					citizenOf(X7,"United States"),
+					citizenOf(X9,X10),
+					citizenOf(X9,X1),
+					citizenOf(X9,"United States").
+ 
+%=========================================================================
+ 
+% U_170 = {"The Prestige", "The Dark Knight", "The Age of Innocence"} 
+ 
+characterization(170,X) :-	releasedIn(X,X1),
+				hasPeriod(X,X3),
+				producedBy(X,X4),
+				hasGenre(X,X5),
+				starring(X,X6),
+				writtenBy(X,X7),
+				hasRating(X,X8),
+				isA(X,"Film"),
+				directedBy(X,X9),
+				isA(X,"entity"),
+					citizenOf(X6,"United Kingdom"),
+					citizenOf(X7,X1),
+					citizenOf(X7,"United States"),
+					citizenOf(X9,X1),
+					citizenOf(X9,"United States").
+ 
+%=========================================================================
+ 
+% U_171 = {"The Prestige", "The Dark Knight", "Edith Wharton"} 
+ 
+characterization(171,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_172 = {"The Prestige", "The Dark Knight", "Daniel Day-Lewis"} 
+ 
+characterization(172,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_173 = {"The Prestige", "The Dark Knight", "Columbia Pictures"} 
+ 
+characterization(173,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_174 = {"The Prestige", "The Dark Knight", "Jurassic Park"} 
+ 
+characterization(174,X) :-	releasedIn(X,X1),
+				hasPeriod(X,X3),
+				producedBy(X,X4),
+				hasGenre(X,X5),
+				starring(X,X6),
+				writtenBy(X,X7),
+				hasRating(X,"PG-13"),
+				isA(X,"Film"),
+				directedBy(X,X8),
+				isA(X,"entity"),
+					citizenOf(X6,"United Kingdom"),
+					citizenOf(X7,X1),
+					citizenOf(X7,"United States"),
+					citizenOf(X8,X1),
+					citizenOf(X8,"United States").
+ 
+%=========================================================================
+ 
+% U_175 = {"The Prestige", "The Dark Knight", "Michael Crichton"} 
+ 
+characterization(175,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_176 = {"The Prestige", "The Dark Knight", "Sam Neill"} 
+ 
+characterization(176,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_177 = {"The Prestige", "The Dark Knight", "Manhattan Murder Mystery"} 
+ 
+characterization(177,X) :-	releasedIn(X,X1),
+				hasPeriod(X,X3),
+				producedBy(X,X4),
+				hasGenre(X,X5),
+				starring(X,X6),
+				writtenBy(X,X7),
+				hasRating(X,X8),
+				isA(X,"Film"),
+				directedBy(X,X9),
+				isA(X,"entity"),
+					citizenOf(X6,X10),
+					citizenOf(X7,X10),
+					citizenOf(X7,X1),
+					citizenOf(X7,"United States"),
+					citizenOf(X9,X10),
+					citizenOf(X9,X1),
+					citizenOf(X9,"United States").
+ 
+%=========================================================================
+ 
+% U_178 = {"The Prestige", "The Dark Knight", "Pulp Fiction"} 
+ 
+characterization(178,X) :-	releasedIn(X,X1),
+				hasPeriod(X,X3),
+				producedBy(X,X4),
+				hasGenre(X,X5),
+				starring(X,X6),
+				writtenBy(X,X7),
+				hasRating(X,X8),
+				isA(X,"Film"),
+				directedBy(X,X9),
+				isA(X,"entity"),
+					citizenOf(X6,X10),
+					citizenOf(X7,X10),
+					citizenOf(X7,X1),
+					citizenOf(X7,"United States"),
+					citizenOf(X9,X10),
+					citizenOf(X9,X1),
+					citizenOf(X9,"United States").
+ 
+%=========================================================================
+ 
+% U_179 = {"The Prestige", "The Dark Knight", "John Travolta"} 
+ 
+characterization(179,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_180 = {"The Prestige", "The Dark Knight", "Miramax"} 
+ 
+characterization(180,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_181 = {"The Prestige", "The Dark Knight", "Schindler's List"} 
+ 
+characterization(181,X) :-	releasedIn(X,X1),
+				hasPeriod(X,X3),
+				producedBy(X,X4),
+				hasGenre(X,X5),
+				starring(X,X6),
+				writtenBy(X,X7),
+				hasRating(X,X8),
+				isA(X,"Film"),
+				directedBy(X,X9),
+				isA(X,"entity"),
+					citizenOf(X6,"United Kingdom"),
+					citizenOf(X7,X11),
+					citizenOf(X9,X1),
+					citizenOf(X9,"United States").
+ 
+%=========================================================================
+ 
+% U_182 = {"The Prestige", "The Dark Knight", "Thomas Keneally"} 
+ 
+characterization(182,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_183 = {"The Prestige", "The Dark Knight", "Liam Neeson"} 
+ 
+characterization(183,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_184 = {"The Prestige", "The Dark Knight", "Casino"} 
+ 
+characterization(184,X) :-	releasedIn(X,X1),
+				hasPeriod(X,X3),
+				producedBy(X,X4),
+				hasGenre(X,X5),
+				starring(X,X6),
+				writtenBy(X,X7),
+				hasRating(X,X8),
+				isA(X,"Film"),
+				directedBy(X,X9),
+				isA(X,"entity"),
+					citizenOf(X6,X10),
+					citizenOf(X7,X10),
+					citizenOf(X7,X1),
+					citizenOf(X7,"United States"),
+					citizenOf(X9,X10),
+					citizenOf(X9,X1),
+					citizenOf(X9,"United States").
+ 
+%=========================================================================
+ 
+% U_185 = {"The Prestige", "The Dark Knight", "Bullets Over Broadway"} 
+ 
+characterization(185,X) :-	releasedIn(X,X1),
+				hasPeriod(X,X3),
+				producedBy(X,X4),
+				hasGenre(X,X5),
+				starring(X,X6),
+				writtenBy(X,X7),
+				hasRating(X,X8),
+				isA(X,"Film"),
+				directedBy(X,X9),
+				isA(X,"entity"),
+					citizenOf(X6,X10),
+					citizenOf(X7,X10),
+					citizenOf(X7,X1),
+					citizenOf(X7,"United States"),
+					citizenOf(X9,X10),
+					citizenOf(X9,X1),
+					citizenOf(X9,"United States").
+ 
+%=========================================================================
+ 
+% U_186 = {"The Prestige", "The Dark Knight", "John Cusack"} 
+ 
+characterization(186,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_187 = {"The Prestige", "The Dark Knight", "Mighty Aphrodite"} 
+ 
+characterization(187,X) :-	releasedIn(X,X1),
+				hasPeriod(X,X3),
+				producedBy(X,X4),
+				hasGenre(X,X5),
+				starring(X,X6),
+				writtenBy(X,X7),
+				hasRating(X,X8),
+				isA(X,"Film"),
+				directedBy(X,X9),
+				isA(X,"entity"),
+					citizenOf(X6,X10),
+					citizenOf(X7,X10),
+					citizenOf(X7,X1),
+					citizenOf(X7,"United States"),
+					citizenOf(X9,X10),
+					citizenOf(X9,X1),
+					citizenOf(X9,"United States").
+ 
+%=========================================================================
+ 
+% U_188 = {"The Prestige", "The Dark Knight", "Sweetland Films"} 
+ 
+characterization(188,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_189 = {"The Prestige", "The Dark Knight", "Jack"} 
+ 
+characterization(189,X) :-	releasedIn(X,X1),
+				hasPeriod(X,X3),
+				producedBy(X,X4),
+				hasGenre(X,X5),
+				starring(X,X6),
+				writtenBy(X,X7),
+				hasRating(X,"PG-13"),
+				isA(X,"Film"),
+				directedBy(X,X8),
+				isA(X,"entity"),
+					citizenOf(X6,X9),
+					citizenOf(X7,X9),
+					citizenOf(X7,X1),
+					citizenOf(X7,"United States"),
+					citizenOf(X8,X9),
+					citizenOf(X8,X1),
+					citizenOf(X8,"United States").
+ 
+%=========================================================================
+ 
+% U_190 = {"The Prestige", "The Dark Knight", "James DeMonaco"} 
+ 
+characterization(190,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_191 = {"The Prestige", "The Dark Knight", "Robin Williams"} 
+ 
+characterization(191,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_192 = {"The Prestige", "The Dark Knight", "Hollywood Pictures"} 
+ 
+characterization(192,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_193 = {"The Prestige", "The Dark Knight", "Lost Highway"} 
+ 
+characterization(193,X) :-	releasedIn(X,X1),
+				hasPeriod(X,X3),
+				producedBy(X,X4),
+				hasGenre(X,X5),
+				starring(X,X6),
+				writtenBy(X,X7),
+				hasRating(X,X8),
+				isA(X,"Film"),
+				directedBy(X,X9),
+				isA(X,"entity"),
+					citizenOf(X6,X10),
+					citizenOf(X7,X10),
+					citizenOf(X7,"United States"),
+					citizenOf(X9,X10),
+					citizenOf(X9,"United States").
+ 
+%=========================================================================
+ 
+% U_194 = {"The Prestige", "The Dark Knight", "Mystery"} 
+ 
+characterization(194,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_195 = {"The Prestige", "The Dark Knight", "Bill Pullman"} 
+ 
+characterization(195,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_196 = {"The Prestige", "The Dark Knight", "CiBy 2000"} 
+ 
+characterization(196,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_197 = {"The Prestige", "The Dark Knight", "The Rainmaker"} 
+ 
+characterization(197,X) :-	releasedIn(X,X1),
+				hasPeriod(X,X3),
+				producedBy(X,X4),
+				hasGenre(X,X5),
+				starring(X,X6),
+				writtenBy(X,X7),
+				hasRating(X,"PG-13"),
+				isA(X,"Film"),
+				directedBy(X,X8),
+				isA(X,"entity"),
+					citizenOf(X6,X9),
+					citizenOf(X7,X9),
+					citizenOf(X7,X1),
+					citizenOf(X7,"United States"),
+					citizenOf(X8,X9),
+					citizenOf(X8,X1),
+					citizenOf(X8,"United States").
+ 
+%=========================================================================
+ 
+% U_198 = {"The Prestige", "The Dark Knight", "John Grisham"} 
+ 
+characterization(198,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_199 = {"The Prestige", "The Dark Knight", "Matt Damon"} 
+ 
+characterization(199,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_200 = {"The Prestige", "The Dark Knight", "Constellation Entertainment"} 
+ 
+characterization(200,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_201 = {"The Prestige", "The Dark Knight", "Jackie Brown"} 
+ 
+characterization(201,X) :-	releasedIn(X,X1),
+				hasPeriod(X,X3),
+				producedBy(X,X4),
+				hasGenre(X,X5),
+				starring(X,X6),
+				writtenBy(X,X7),
+				hasRating(X,X8),
+				isA(X,"Film"),
+				directedBy(X,X9),
+				isA(X,"entity"),
+					citizenOf(X6,X10),
+					citizenOf(X7,X10),
+					citizenOf(X7,X1),
+					citizenOf(X7,"United States"),
+					citizenOf(X9,X10),
+					citizenOf(X9,X1),
+					citizenOf(X9,"United States").
+ 
+%=========================================================================
+ 
+% U_202 = {"The Prestige", "The Dark Knight", "Pam Grier"} 
+ 
+characterization(202,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_203 = {"The Prestige", "The Dark Knight", "Amistad"} 
+ 
+characterization(203,X) :-	releasedIn(X,X1),
+				hasPeriod(X,X3),
+				producedBy(X,X4),
+				hasGenre(X,X5),
+				starring(X,X6),
+				writtenBy(X,X7),
+				hasRating(X,X8),
+				isA(X,"Film"),
+				directedBy(X,X9),
+				isA(X,"entity"),
+					citizenOf(X6,X10),
+					citizenOf(X7,X10),
+					citizenOf(X7,X1),
+					citizenOf(X7,"United States"),
+					citizenOf(X9,X10),
+					citizenOf(X9,X1),
+					citizenOf(X9,"United States").
+ 
+%=========================================================================
+ 
+% U_204 = {"The Prestige", "The Dark Knight", "David Franzoni"} 
+ 
+characterization(204,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_205 = {"The Prestige", "The Dark Knight", "Djimon Hounsou"} 
+ 
+characterization(205,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_206 = {"The Prestige", "The Dark Knight", "Dreamworks Pictures"} 
+ 
+characterization(206,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_207 = {"The Prestige", "The Dark Knight", "The Lost World: Jurassic Park"} 
+ 
+characterization(207,X) :-	releasedIn(X,X1),
+				hasPeriod(X,X3),
+				producedBy(X,X4),
+				hasGenre(X,X5),
+				starring(X,X6),
+				writtenBy(X,X7),
+				hasRating(X,"PG-13"),
+				isA(X,"Film"),
+				directedBy(X,X8),
+				isA(X,"entity"),
+					citizenOf(X6,X9),
+					citizenOf(X7,X9),
+					citizenOf(X7,X1),
+					citizenOf(X7,"United States"),
+					citizenOf(X8,X9),
+					citizenOf(X8,X1),
+					citizenOf(X8,"United States").
+ 
+%=========================================================================
+ 
+% U_208 = {"The Prestige", "The Dark Knight", "Jeff Goldblum"} 
+ 
+characterization(208,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_209 = {"The Prestige", "The Dark Knight", "Everyone Says I Love You"} 
+ 
+characterization(209,X) :-	releasedIn(X,X1),
+				hasPeriod(X,X3),
+				producedBy(X,X4),
+				hasGenre(X,X5),
+				starring(X,X6),
+				writtenBy(X,X7),
+				hasRating(X,X8),
+				isA(X,"Film"),
+				directedBy(X,X9),
+				isA(X,"entity"),
+					citizenOf(X6,X10),
+					citizenOf(X7,X10),
+					citizenOf(X7,X1),
+					citizenOf(X7,"United States"),
+					citizenOf(X9,X10),
+					citizenOf(X9,X1),
+					citizenOf(X9,"United States").
+ 
+%=========================================================================
+ 
+% U_210 = {"The Prestige", "The Dark Knight", "Kundun"} 
+ 
+characterization(210,X) :-	producedBy(X,X1),
+				releasedIn(X,X3),
+				starring(X,X4),
+				hasPeriod(X,"00's"),
+				hasGenre(X,X5),
+				directedBy(X,X6),
+				hasRating(X,"PG-13"),
+				writtenBy(X,X7),
+				isA(X,"Film"),
+				isA(X,"entity"),
+					citizenOf(X4,X8),
+					citizenOf(X6,X3),
+					citizenOf(X6,"United States"),
+					citizenOf(X7,X3),
+					citizenOf(X7,"United States").
+ 
+%=========================================================================
+ 
+% U_211 = {"The Prestige", "The Dark Knight", "00's"} 
+ 
+characterization(211,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_212 = {"The Prestige", "The Dark Knight", "Tenzin Thuthob Tsarong"} 
+ 
+characterization(212,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_213 = {"The Prestige", "The Dark Knight", "De Fina-Cappa"} 
+ 
+characterization(213,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_214 = {"The Prestige", "The Dark Knight", "Saving Private Ryan"} 
+ 
+characterization(214,X) :-	producedBy(X,X1),
+				releasedIn(X,X3),
+				starring(X,X4),
+				hasPeriod(X,"00's"),
+				hasGenre(X,X5),
+				directedBy(X,X6),
+				hasRating(X,X7),
+				writtenBy(X,X8),
+				isA(X,"Film"),
+				isA(X,"entity"),
+					citizenOf(X4,X9),
+					citizenOf(X6,X9),
+					citizenOf(X6,X3),
+					citizenOf(X6,"United States"),
+					citizenOf(X8,X9),
+					citizenOf(X8,X3),
+					citizenOf(X8,"United States").
+ 
+%=========================================================================
+ 
+% U_215 = {"The Prestige", "The Dark Knight", "Robert Rodat"} 
+ 
+characterization(215,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_216 = {"The Prestige", "The Dark Knight", "Tom Hanks"} 
+ 
+characterization(216,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_217 = {"The Prestige", "The Dark Knight", "Celebrity"} 
+ 
+characterization(217,X) :-	producedBy(X,X1),
+				releasedIn(X,X3),
+				starring(X,X4),
+				hasPeriod(X,"00's"),
+				hasGenre(X,X5),
+				directedBy(X,X6),
+				hasRating(X,X7),
+				writtenBy(X,X8),
+				isA(X,"Film"),
+				isA(X,"entity"),
+					citizenOf(X4,"United Kingdom"),
+					citizenOf(X6,X3),
+					citizenOf(X6,"United States"),
+					citizenOf(X8,X3),
+					citizenOf(X8,"United States").
+ 
+%=========================================================================
+ 
+% U_218 = {"The Prestige", "The Dark Knight", "Kenneth Branagh"} 
+ 
+characterization(218,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_219 = {"The Prestige", "The Dark Knight", "Deconstructing Harry"} 
+ 
+characterization(219,X) :-	producedBy(X,X1),
+				releasedIn(X,X3),
+				starring(X,X4),
+				hasPeriod(X,"00's"),
+				hasGenre(X,X5),
+				directedBy(X,X6),
+				hasRating(X,X7),
+				writtenBy(X,X8),
+				isA(X,"Film"),
+				isA(X,"entity"),
+					citizenOf(X4,X9),
+					citizenOf(X6,X9),
+					citizenOf(X6,X3),
+					citizenOf(X6,"United States"),
+					citizenOf(X8,X9),
+					citizenOf(X8,X3),
+					citizenOf(X8,"United States").
+ 
+%=========================================================================
+ 
+% U_220 = {"The Prestige", "The Dark Knight", "Following"} 
+ 
+characterization(220,X) :-	producedBy(X,X1),
+				releasedIn(X,X3),
+				starring(X,X4),
+				hasPeriod(X,"00's"),
+				hasGenre(X,X5),
+				directedBy(X,"Christopher Nolan"),
+				hasRating(X,X6),
+				writtenBy(X,X7),
+				isA(X,"Film"),
+				isA(X,"entity"),
+					citizenOf(X4,"United Kingdom"),
+					citizenOf("Christopher Nolan",X3),
+					citizenOf("Christopher Nolan","United Kingdom"),
+					citizenOf("Christopher Nolan","United States"),
+					citizenOf(X7,"United Kingdom"),
+					citizenOf(X7,X3),
+					citizenOf(X7,"United States").
+ 
+%=========================================================================
+ 
+% U_221 = {"The Prestige", "The Dark Knight", "Christopher Nolan"} 
+ 
+characterization(221,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_222 = {"The Prestige", "The Dark Knight", "Jeremy Theobald"} 
+ 
+characterization(222,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_223 = {"The Prestige", "The Dark Knight", "Next Wave Films"} 
+ 
+characterization(223,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_224 = {"The Prestige", "The Dark Knight", "The Straight Story"} 
+ 
+characterization(224,X) :-	producedBy(X,X1),
+				releasedIn(X,X3),
+				starring(X,X4),
+				hasPeriod(X,"00's"),
+				hasGenre(X,X5),
+				directedBy(X,X6),
+				hasRating(X,X7),
+				writtenBy(X,X8),
+				isA(X,"Film"),
+				isA(X,"entity"),
+					citizenOf(X4,X9),
+					citizenOf(X6,X9),
+					citizenOf(X6,"United States").
+ 
+%=========================================================================
+ 
+% U_225 = {"The Prestige", "The Dark Knight", "G"} 
+ 
+characterization(225,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_226 = {"The Prestige", "The Dark Knight", "John Roach"} 
+ 
+characterization(226,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_227 = {"The Prestige", "The Dark Knight", "Richard Farnsworth"} 
+ 
+characterization(227,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_228 = {"The Prestige", "The Dark Knight", "Asymmetrical Productions"} 
+ 
+characterization(228,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_229 = {"The Prestige", "The Dark Knight", "Bringing Out the Dead"} 
+ 
+characterization(229,X) :-	producedBy(X,X1),
+				releasedIn(X,X3),
+				starring(X,X4),
+				hasPeriod(X,"00's"),
+				hasGenre(X,X5),
+				directedBy(X,X6),
+				hasRating(X,X7),
+				writtenBy(X,X8),
+				isA(X,"Film"),
+				isA(X,"entity"),
+					citizenOf(X4,X9),
+					citizenOf(X6,X9),
+					citizenOf(X6,X3),
+					citizenOf(X6,"United States"),
+					citizenOf(X8,X9),
+					citizenOf(X8,X3),
+					citizenOf(X8,"United States").
+ 
+%=========================================================================
+ 
+% U_230 = {"The Prestige", "The Dark Knight", "Joe Connelly"} 
+ 
+characterization(230,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_231 = {"The Prestige", "The Dark Knight", "Eyes Wide Shut"} 
+ 
+characterization(231,X) :-	producedBy(X,X1),
+				releasedIn(X,X3),
+				starring(X,X4),
+				hasPeriod(X,"00's"),
+				hasGenre(X,X5),
+				directedBy(X,X6),
+				hasRating(X,X7),
+				writtenBy(X,X8),
+				isA(X,"Film"),
+				isA(X,"entity"),
+					citizenOf(X4,X9),
+					citizenOf(X6,X9),
+					citizenOf(X6,"United States"),
+					citizenOf(X8,X9),
+					citizenOf(X8,"United States").
+ 
+%=========================================================================
+ 
+% U_232 = {"The Prestige", "The Dark Knight", "Unrated"} 
+ 
+characterization(232,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_233 = {"The Prestige", "The Dark Knight", "Tom Cruise"} 
+ 
+characterization(233,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_234 = {"The Prestige", "The Dark Knight", "Small Time Crooks"} 
+ 
+characterization(234,X) :-	producedBy(X,X1),
+				releasedIn(X,X3),
+				starring(X,X4),
+				hasPeriod(X,"00's"),
+				hasGenre(X,X5),
+				directedBy(X,X6),
+				hasRating(X,X7),
+				writtenBy(X,X8),
+				isA(X,"Film"),
+				isA(X,"entity"),
+					citizenOf(X4,X9),
+					citizenOf(X6,X9),
+					citizenOf(X6,X3),
+					citizenOf(X6,"United States"),
+					citizenOf(X8,X9),
+					citizenOf(X8,X3),
+					citizenOf(X8,"United States").
+ 
+%=========================================================================
+ 
+% U_235 = {"The Prestige", "The Dark Knight", "Sweet and Lowdown"} 
+ 
+characterization(235,X) :-	producedBy(X,X1),
+				releasedIn(X,X3),
+				starring(X,X4),
+				hasPeriod(X,"00's"),
+				hasGenre(X,X5),
+				directedBy(X,X6),
+				hasRating(X,"PG-13"),
+				writtenBy(X,X7),
+				isA(X,"Film"),
+				isA(X,"entity"),
+					citizenOf(X4,X8),
+					citizenOf(X6,X8),
+					citizenOf(X6,X3),
+					citizenOf(X6,"United States"),
+					citizenOf(X7,X8),
+					citizenOf(X7,X3),
+					citizenOf(X7,"United States").
+ 
+%=========================================================================
+ 
+% U_236 = {"The Prestige", "The Dark Knight", "Sean Penn"} 
+ 
+characterization(236,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_237 = {"The Prestige", "The Dark Knight", "Memento"} 
+ 
+characterization(237,X) :-	producedBy(X,X1),
+				releasedIn(X,X3),
+				starring(X,X4),
+				hasPeriod(X,"00's"),
+				hasGenre(X,X5),
+				directedBy(X,"Christopher Nolan"),
+				hasRating(X,X6),
+				writtenBy(X,X7),
+				isA(X,"Film"),
+				isA(X,"entity"),
+					citizenOf(X4,"United Kingdom"),
+					citizenOf("Christopher Nolan",X3),
+					citizenOf("Christopher Nolan","United Kingdom"),
+					citizenOf("Christopher Nolan","United States"),
+					citizenOf(X7,"United Kingdom"),
+					citizenOf(X7,X3),
+					citizenOf(X7,"United States").
+ 
+%=========================================================================
+ 
+% U_238 = {"The Prestige", "The Dark Knight", "Guy Pearce"} 
+ 
+characterization(238,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_239 = {"The Prestige", "The Dark Knight", "Newmarket Capital Group"} 
+ 
+characterization(239,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_240 = {"The Prestige", "The Dark Knight", "Mulholland Dr."} 
+ 
+characterization(240,X) :-	producedBy(X,X1),
+				releasedIn(X,X3),
+				starring(X,X4),
+				hasPeriod(X,"00's"),
+				hasGenre(X,X5),
+				directedBy(X,X6),
+				hasRating(X,X7),
+				writtenBy(X,X8),
+				isA(X,"Film"),
+				isA(X,"entity"),
+					citizenOf(X4,"United Kingdom"),
+					citizenOf(X6,"United States"),
+					citizenOf(X8,"United States").
+ 
+%=========================================================================
+ 
+% U_241 = {"The Prestige", "The Dark Knight", "Naomi Watts"} 
+ 
+characterization(241,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_242 = {"The Prestige", "The Dark Knight", "Les Films Alain Sarde"} 
+ 
+characterization(242,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_243 = {"The Prestige", "The Dark Knight", "A.I. Artificial Intelligence"} 
+ 
+characterization(243,X) :-	producedBy(X,X1),
+				releasedIn(X,X3),
+				starring(X,X4),
+				hasPeriod(X,"00's"),
+				hasGenre(X,X5),
+				directedBy(X,X6),
+				hasRating(X,"PG-13"),
+				writtenBy(X,X7),
+				isA(X,"Film"),
+				isA(X,"entity"),
+					citizenOf(X4,X8),
+					citizenOf(X6,X8),
+					citizenOf(X6,X3),
+					citizenOf(X6,"United States"),
+					citizenOf(X7,"United Kingdom").
+ 
+%=========================================================================
+ 
+% U_244 = {"The Prestige", "The Dark Knight", "Brian Aldiss"} 
+ 
+characterization(244,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_245 = {"The Prestige", "The Dark Knight", "Haley Joel Osment"} 
+ 
+characterization(245,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_246 = {"The Prestige", "The Dark Knight", "The Curse of the Jade Scorpion"} 
+ 
+characterization(246,X) :-	producedBy(X,X1),
+				releasedIn(X,X3),
+				starring(X,X4),
+				hasPeriod(X,"00's"),
+				hasGenre(X,X5),
+				directedBy(X,X6),
+				hasRating(X,"PG-13"),
+				writtenBy(X,X7),
+				isA(X,"Film"),
+				isA(X,"entity"),
+					citizenOf(X6,X3),
+					citizenOf(X6,"United States"),
+					citizenOf(X7,X3),
+					citizenOf(X7,"United States").
+ 
+%=========================================================================
+ 
+% U_247 = {"The Prestige", "The Dark Knight", "Greg Stebner"} 
+ 
+characterization(247,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_248 = {"The Prestige", "The Dark Knight", "Insomnia"} 
+ 
+characterization(248,X) :-	releasedIn(X,X1),
+				hasPeriod(X,"00's"),
+				producedBy(X,X3),
+				hasGenre(X,X4),
+				starring(X,X5),
+				writtenBy(X,X6),
+				hasRating(X,X7),
+				isA(X,"Film"),
+				directedBy(X,"Christopher Nolan"),
+				isA(X,"entity"),
+					citizenOf(X5,X8),
+					citizenOf(X6,X8),
+					citizenOf(X6,X1),
+					citizenOf(X6,"United States"),
+					citizenOf("Christopher Nolan","United Kingdom"),
+					citizenOf("Christopher Nolan",X8),
+					citizenOf("Christopher Nolan",X1),
+					citizenOf("Christopher Nolan","United States").
+ 
+%=========================================================================
+ 
+% U_249 = {"The Prestige", "The Dark Knight", "Hillary Seitz"} 
+ 
+characterization(249,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_250 = {"The Prestige", "The Dark Knight", "Alcon Entertainment"} 
+ 
+characterization(250,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_251 = {"The Prestige", "The Dark Knight", "Gangs of New York"} 
+ 
+characterization(251,X) :-	releasedIn(X,X1),
+				hasPeriod(X,"00's"),
+				producedBy(X,X3),
+				hasGenre(X,X4),
+				starring(X,X5),
+				writtenBy(X,X6),
+				hasRating(X,X7),
+				isA(X,"Film"),
+				directedBy(X,X8),
+				isA(X,"entity"),
+					citizenOf(X5,X9),
+					citizenOf(X6,X9),
+					citizenOf(X6,X1),
+					citizenOf(X6,"United States"),
+					citizenOf(X8,X9),
+					citizenOf(X8,X1),
+					citizenOf(X8,"United States").
+ 
+%=========================================================================
+ 
+% U_252 = {"The Prestige", "The Dark Knight", "Jay Cocks"} 
+ 
+characterization(252,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_253 = {"The Prestige", "The Dark Knight", "Leonardo DiCaprio"} 
+ 
+characterization(253,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_254 = {"The Prestige", "The Dark Knight", "Catch Me If You Can"} 
+ 
+characterization(254,X) :-	releasedIn(X,X1),
+				hasPeriod(X,"00's"),
+				producedBy(X,X3),
+				hasGenre(X,X4),
+				starring(X,X5),
+				writtenBy(X,X6),
+				hasRating(X,"PG-13"),
+				isA(X,"Film"),
+				directedBy(X,X7),
+				isA(X,"entity"),
+					citizenOf(X5,X8),
+					citizenOf(X6,X10),
+					citizenOf(X7,X8),
+					citizenOf(X7,X1),
+					citizenOf(X7,"United States").
+ 
+%=========================================================================
+ 
+% U_255 = {"The Prestige", "The Dark Knight", "Jeff Nathanson"} 
+ 
+characterization(255,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_256 = {"The Prestige", "The Dark Knight", "Minority Report"} 
+ 
+characterization(256,X) :-	releasedIn(X,X1),
+				hasPeriod(X,"00's"),
+				producedBy(X,X3),
+				hasGenre(X,X4),
+				starring(X,X5),
+				writtenBy(X,X6),
+				hasRating(X,"PG-13"),
+				isA(X,"Film"),
+				directedBy(X,X7),
+				isA(X,"entity"),
+					citizenOf(X5,X8),
+					citizenOf(X6,X8),
+					citizenOf(X6,X1),
+					citizenOf(X6,"United States"),
+					citizenOf(X7,X8),
+					citizenOf(X7,X1),
+					citizenOf(X7,"United States").
+ 
+%=========================================================================
+ 
+% U_257 = {"The Prestige", "The Dark Knight", "Philip K. Dick"} 
+ 
+characterization(257,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_258 = {"The Prestige", "The Dark Knight", "Twentieth Century Fox"} 
+ 
+characterization(258,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_259 = {"The Prestige", "The Dark Knight", "Kill Bill: Vol. 1"} 
+ 
+characterization(259,X) :-	releasedIn(X,X1),
+				hasPeriod(X,"00's"),
+				producedBy(X,X3),
+				hasGenre(X,X4),
+				starring(X,X5),
+				writtenBy(X,X6),
+				hasRating(X,X7),
+				isA(X,"Film"),
+				directedBy(X,X8),
+				isA(X,"entity"),
+					citizenOf(X5,X9),
+					citizenOf(X6,X9),
+					citizenOf(X6,X1),
+					citizenOf(X6,"United States"),
+					citizenOf(X8,X9),
+					citizenOf(X8,X1),
+					citizenOf(X8,"United States").
+ 
+%=========================================================================
+ 
+% U_260 = {"The Prestige", "The Dark Knight", "Uma Thurman"} 
+ 
+characterization(260,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_261 = {"The Prestige", "The Dark Knight", "Anything Else"} 
+ 
+characterization(261,X) :-	releasedIn(X,X1),
+				hasPeriod(X,"00's"),
+				producedBy(X,X3),
+				hasGenre(X,X4),
+				starring(X,X5),
+				writtenBy(X,X6),
+				hasRating(X,X7),
+				isA(X,"Film"),
+				directedBy(X,X8),
+				isA(X,"entity"),
+					citizenOf(X5,X9),
+					citizenOf(X6,X9),
+					citizenOf(X6,X1),
+					citizenOf(X6,"United States"),
+					citizenOf(X8,X9),
+					citizenOf(X8,X1),
+					citizenOf(X8,"United States").
+ 
+%=========================================================================
+ 
+% U_262 = {"The Prestige", "The Dark Knight", "The Aviator"} 
+ 
+characterization(262,X) :-	releasedIn(X,X1),
+				hasPeriod(X,"00's"),
+				producedBy(X,X3),
+				hasGenre(X,X4),
+				starring(X,X5),
+				writtenBy(X,X6),
+				hasRating(X,"PG-13"),
+				isA(X,"Film"),
+				directedBy(X,X7),
+				isA(X,"entity"),
+					citizenOf(X5,X8),
+					citizenOf(X6,X8),
+					citizenOf(X6,X1),
+					citizenOf(X6,"United States"),
+					citizenOf(X7,X8),
+					citizenOf(X7,X1),
+					citizenOf(X7,"United States").
+ 
+%=========================================================================
+ 
+% U_263 = {"The Prestige", "The Dark Knight", "John Logan"} 
+ 
+characterization(263,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_264 = {"The Prestige", "The Dark Knight", "Forward Pass"} 
+ 
+characterization(264,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_265 = {"The Prestige", "The Dark Knight", "Kill Bill: Vol. 2"} 
+ 
+characterization(265,X) :-	releasedIn(X,X1),
+				hasPeriod(X,"00's"),
+				producedBy(X,X3),
+				hasGenre(X,X4),
+				starring(X,X5),
+				writtenBy(X,X6),
+				hasRating(X,X7),
+				isA(X,"Film"),
+				directedBy(X,X8),
+				isA(X,"entity"),
+					citizenOf(X5,X9),
+					citizenOf(X6,X9),
+					citizenOf(X6,X1),
+					citizenOf(X6,"United States"),
+					citizenOf(X8,X9),
+					citizenOf(X8,X1),
+					citizenOf(X8,"United States").
+ 
+%=========================================================================
+ 
+% U_266 = {"The Prestige", "The Dark Knight", "The Terminal"} 
+ 
+characterization(266,X) :-	releasedIn(X,X1),
+				hasPeriod(X,"00's"),
+				producedBy(X,X3),
+				hasGenre(X,X4),
+				starring(X,X5),
+				writtenBy(X,X6),
+				hasRating(X,"PG-13"),
+				isA(X,"Film"),
+				directedBy(X,X7),
+				isA(X,"entity"),
+					citizenOf(X5,X8),
+					citizenOf(X6,X10),
+					citizenOf(X7,X8),
+					citizenOf(X7,X1),
+					citizenOf(X7,"United States").
+ 
+%=========================================================================
+ 
+% U_267 = {"The Prestige", "The Dark Knight", "Andrew Niccol"} 
+ 
+characterization(267,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_268 = {"The Prestige", "The Dark Knight", "Batman Begins"} 
+ 
+characterization(268,X) :-	releasedIn(X,X1),
+				hasPeriod(X,"00's"),
+				producedBy(X,X3),
+				hasGenre(X,X4),
+				starring(X,"Christian Bale"),
+				writtenBy(X,X5),
+				hasRating(X,"PG-13"),
+				isA(X,"Film"),
+				directedBy(X,"Christopher Nolan"),
+				isA(X,"entity"),
+					citizenOf("Christian Bale","United Kingdom"),
+					citizenOf(X5,"United States"),
+					citizenOf("Christopher Nolan","United Kingdom"),
+					citizenOf("Christopher Nolan",X1),
+					citizenOf("Christopher Nolan","United States").
+ 
+%=========================================================================
+ 
+% U_269 = {"The Prestige", "The Dark Knight", "Bob Kane"} 
+ 
+characterization(269,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_270 = {"The Prestige", "The Dark Knight", "War of the Worlds"} 
+ 
+characterization(270,X) :-	releasedIn(X,X1),
+				hasPeriod(X,"00's"),
+				producedBy(X,X3),
+				hasGenre(X,X4),
+				starring(X,X5),
+				writtenBy(X,X6),
+				hasRating(X,"PG-13"),
+				isA(X,"Film"),
+				directedBy(X,X7),
+				isA(X,"entity"),
+					citizenOf(X5,X8),
+					citizenOf(X6,X8),
+					citizenOf(X6,X1),
+					citizenOf(X6,"United States"),
+					citizenOf(X7,X8),
+					citizenOf(X7,X1),
+					citizenOf(X7,"United States").
+ 
+%=========================================================================
+ 
+% U_271 = {"The Prestige", "The Dark Knight", "Josh Friedman"} 
+ 
+characterization(271,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_272 = {"The Prestige", "The Dark Knight", "Melinda and Melinda"} 
+ 
+characterization(272,X) :-	releasedIn(X,X1),
+				hasPeriod(X,"00's"),
+				producedBy(X,X3),
+				hasGenre(X,X4),
+				starring(X,X5),
+				writtenBy(X,X6),
+				hasRating(X,"PG-13"),
+				isA(X,"Film"),
+				directedBy(X,X7),
+				isA(X,"entity"),
+					citizenOf(X5,X8),
+					citizenOf(X6,X8),
+					citizenOf(X6,X1),
+					citizenOf(X6,"United States"),
+					citizenOf(X7,X8),
+					citizenOf(X7,X1),
+					citizenOf(X7,"United States").
+ 
+%=========================================================================
+ 
+% U_273 = {"The Prestige", "The Dark Knight", "Will Ferrell"} 
+ 
+characterization(273,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_274 = {"The Prestige", "The Dark Knight", "Fox Searchlight Pictures"} 
+ 
+characterization(274,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_275 = {"The Prestige", "The Dark Knight", "Jonathan Nolan"} 
+ 
+characterization(275,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_276 = {"The Prestige", "The Dark Knight", "The Departed"} 
+ 
+characterization(276,X) :-	releasedIn(X,X1),
+				hasPeriod(X,"00's"),
+				producedBy(X,X3),
+				hasGenre(X,X4),
+				starring(X,X5),
+				writtenBy(X,X6),
+				hasRating(X,X7),
+				isA(X,"Film"),
+				directedBy(X,X8),
+				isA(X,"entity"),
+					citizenOf(X5,X9),
+					citizenOf(X6,X9),
+					citizenOf(X6,X1),
+					citizenOf(X6,"United States"),
+					citizenOf(X8,X9),
+					citizenOf(X8,X1),
+					citizenOf(X8,"United States").
+ 
+%=========================================================================
+ 
+% U_277 = {"The Prestige", "The Dark Knight", "William Monahan"} 
+ 
+characterization(277,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_278 = {"The Prestige", "The Dark Knight", "Munich"} 
+ 
+characterization(278,X) :-	releasedIn(X,X1),
+				hasPeriod(X,"00's"),
+				producedBy(X,X3),
+				hasGenre(X,X4),
+				starring(X,X5),
+				writtenBy(X,X6),
+				hasRating(X,X7),
+				isA(X,"Film"),
+				directedBy(X,X8),
+				isA(X,"entity"),
+					citizenOf(X5,X9),
+					citizenOf(X6,X1),
+					citizenOf(X6,"United States"),
+					citizenOf(X8,X1),
+					citizenOf(X8,"United States").
+ 
+%=========================================================================
+ 
+% U_279 = {"The Prestige", "The Dark Knight", "Tony Kushner"} 
+ 
+characterization(279,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_280 = {"The Prestige", "The Dark Knight", "Eric Bana"} 
+ 
+characterization(280,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_281 = {"The Prestige", "The Dark Knight", "Scoop"} 
+ 
+characterization(281,X) :-	releasedIn(X,X1),
+				hasPeriod(X,"00's"),
+				producedBy(X,X3),
+				hasGenre(X,X4),
+				starring(X,X5),
+				writtenBy(X,X6),
+				hasRating(X,"PG-13"),
+				isA(X,"Film"),
+				directedBy(X,X7),
+				isA(X,"entity"),
+					citizenOf(X5,X8),
+					citizenOf(X6,X8),
+					citizenOf(X6,"United States"),
+					citizenOf(X7,X8),
+					citizenOf(X7,"United States").
+ 
+%=========================================================================
+ 
+% U_282 = {"The Prestige", "The Dark Knight", "Scarlett Johansson"} 
+ 
+characterization(282,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_283 = {"The Prestige", "The Dark Knight", "BBC Films"} 
+ 
+characterization(283,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_284 = {"The Prestige", "The Dark Knight", "Match Point"} 
+ 
+characterization(284,X) :-	releasedIn(X,X1),
+				hasPeriod(X,"00's"),
+				producedBy(X,X3),
+				hasGenre(X,X4),
+				starring(X,X5),
+				writtenBy(X,X6),
+				hasRating(X,X7),
+				isA(X,"Film"),
+				directedBy(X,X8),
+				isA(X,"entity"),
+					citizenOf(X5,X9),
+					citizenOf(X6,X9),
+					citizenOf(X6,"United States"),
+					citizenOf(X8,X9),
+					citizenOf(X8,"United States").
+ 
+%=========================================================================
+ 
+% U_285 = {"The Prestige", "The Dark Knight", "Inland Empire"} 
+ 
+characterization(285,X) :-	releasedIn(X,X1),
+				hasPeriod(X,"00's"),
+				producedBy(X,X3),
+				hasGenre(X,X4),
+				starring(X,X5),
+				writtenBy(X,X6),
+				hasRating(X,X7),
+				isA(X,"Film"),
+				directedBy(X,X8),
+				isA(X,"entity"),
+					citizenOf(X5,X9),
+					citizenOf(X6,"United States"),
+					citizenOf(X8,"United States").
+ 
+%=========================================================================
+ 
+% U_286 = {"The Prestige", "The Dark Knight", "Karolina Gruszka"} 
+ 
+characterization(286,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_287 = {"The Prestige", "The Dark Knight", "StudioCanal"} 
+ 
+characterization(287,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_288 = {"The Prestige", "The Dark Knight", "10's"} 
+ 
+characterization(288,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_289 = {"The Prestige", "The Dark Knight", "Indiana Jones and the Kingdom of the Crystal Skull"} 
+ 
+characterization(289,X) :-	producedBy(X,X1),
+				releasedIn(X,X3),
+				starring(X,X4),
+				hasPeriod(X,"00's"),
+				hasGenre(X,X5),
+				directedBy(X,X6),
+				hasRating(X,"PG-13"),
+				writtenBy(X,X7),
+				isA(X,"Film"),
+				isA(X,"entity"),
+					citizenOf(X4,X8),
+					citizenOf(X6,X8),
+					citizenOf(X6,X3),
+					citizenOf(X6,"United States"),
+					citizenOf(X7,X8),
+					citizenOf(X7,X3),
+					citizenOf(X7,"United States").
+ 
+%=========================================================================
+ 
+% U_290 = {"The Prestige", "The Dark Knight", "David Koepp"} 
+ 
+characterization(290,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_291 = {"The Prestige", "The Dark Knight", "Cassandra's Dream"} 
+ 
+characterization(291,X) :-	producedBy(X,X1),
+				releasedIn(X,X3),
+				starring(X,X4),
+				hasPeriod(X,"00's"),
+				hasGenre(X,X5),
+				directedBy(X,X6),
+				hasRating(X,"PG-13"),
+				writtenBy(X,X7),
+				isA(X,"Film"),
+				isA(X,"entity"),
+					citizenOf(X4,X8),
+					citizenOf(X6,X3),
+					citizenOf(X6,"United States"),
+					citizenOf(X7,X3),
+					citizenOf(X7,"United States").
+ 
+%=========================================================================
+ 
+% U_292 = {"The Prestige", "The Dark Knight", "Colin Farrell"} 
+ 
+characterization(292,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_293 = {"The Prestige", "The Dark Knight", "Iberville Productions"} 
+ 
+characterization(293,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_294 = {"The Prestige", "The Dark Knight", "Vicky Cristina Barcelona"} 
+ 
+characterization(294,X) :-	producedBy(X,X1),
+				releasedIn(X,X3),
+				starring(X,X4),
+				hasPeriod(X,"00's"),
+				hasGenre(X,X5),
+				directedBy(X,X6),
+				hasRating(X,"PG-13"),
+				writtenBy(X,X7),
+				isA(X,"Film"),
+				isA(X,"entity"),
+					citizenOf(X4,"United Kingdom"),
+					citizenOf(X6,"United States"),
+					citizenOf(X7,"United States").
+ 
+%=========================================================================
+ 
+% U_295 = {"The Prestige", "The Dark Knight", "Rebecca Hall"} 
+ 
+characterization(295,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_296 = {"The Prestige", "The Dark Knight", "Spain"} 
+ 
+characterization(296,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_297 = {"The Prestige", "The Dark Knight", "The Weinstein Company"} 
+ 
+characterization(297,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_298 = {"The Prestige", "The Dark Knight", "Inglourious Basterds"} 
+ 
+characterization(298,X) :-	producedBy(X,X1),
+				releasedIn(X,X3),
+				starring(X,X4),
+				hasPeriod(X,"00's"),
+				hasGenre(X,X5),
+				directedBy(X,X6),
+				hasRating(X,X7),
+				writtenBy(X,X8),
+				isA(X,"Film"),
+				isA(X,"entity"),
+					citizenOf(X4,X9),
+					citizenOf(X6,X9),
+					citizenOf(X6,X3),
+					citizenOf(X6,"United States"),
+					citizenOf(X8,X9),
+					citizenOf(X8,X3),
+					citizenOf(X8,"United States").
+ 
+%=========================================================================
+ 
+% U_299 = {"The Prestige", "The Dark Knight", "Brad Pitt"} 
+ 
+characterization(299,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_300 = {"The Prestige", "The Dark Knight", "Whatever Works"} 
+ 
+characterization(300,X) :-	producedBy(X,X1),
+				releasedIn(X,X3),
+				starring(X,X4),
+				hasPeriod(X,"00's"),
+				hasGenre(X,X5),
+				directedBy(X,X6),
+				hasRating(X,"PG-13"),
+				writtenBy(X,X7),
+				isA(X,"Film"),
+				isA(X,"entity"),
+					citizenOf(X4,X8),
+					citizenOf(X6,X8),
+					citizenOf(X6,X3),
+					citizenOf(X6,"United States"),
+					citizenOf(X7,X8),
+					citizenOf(X7,X3),
+					citizenOf(X7,"United States").
+ 
+%=========================================================================
+ 
+% U_301 = {"The Prestige", "The Dark Knight", "Evan Rachel Wood"} 
+ 
+characterization(301,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_302 = {"The Prestige", "The Dark Knight", "Sony Pictures Classics"} 
+ 
+characterization(302,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_303 = {"The Prestige", "The Dark Knight", "Inception"} 
+ 
+characterization(303,X) :-	producedBy(X,X1),
+				releasedIn(X,X3),
+				starring(X,X4),
+				hasPeriod(X,"00's"),
+				hasGenre(X,X5),
+				directedBy(X,"Christopher Nolan"),
+				hasRating(X,"PG-13"),
+				writtenBy(X,X6),
+				isA(X,"Film"),
+				isA(X,"entity"),
+					citizenOf(X4,X7),
+					citizenOf("Christopher Nolan",X7),
+					citizenOf("Christopher Nolan",X3),
+					citizenOf("Christopher Nolan","United Kingdom"),
+					citizenOf("Christopher Nolan","United States"),
+					citizenOf(X6,"United Kingdom"),
+					citizenOf(X6,X7),
+					citizenOf(X6,X3),
+					citizenOf(X6,"United States").
+ 
+%=========================================================================
+ 
+% U_304 = {"The Prestige", "The Dark Knight", "Shutter Island"} 
+ 
+characterization(304,X) :-	producedBy(X,X1),
+				releasedIn(X,X3),
+				starring(X,X4),
+				hasPeriod(X,"00's"),
+				hasGenre(X,X5),
+				directedBy(X,X6),
+				hasRating(X,X7),
+				writtenBy(X,X8),
+				isA(X,"Film"),
+				isA(X,"entity"),
+					citizenOf(X4,X9),
+					citizenOf(X6,X9),
+					citizenOf(X6,X3),
+					citizenOf(X6,"United States"),
+					citizenOf(X8,X9),
+					citizenOf(X8,X3),
+					citizenOf(X8,"United States").
+ 
+%=========================================================================
+ 
+% U_305 = {"The Prestige", "The Dark Knight", "Laeta Kalogridis"} 
+ 
+characterization(305,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_306 = {"The Prestige", "The Dark Knight", "You Will Meet a Tall Dark Stranger"} 
+ 
+characterization(306,X) :-	producedBy(X,X1),
+				releasedIn(X,X3),
+				starring(X,X4),
+				hasPeriod(X,"00's"),
+				hasGenre(X,X5),
+				directedBy(X,X6),
+				hasRating(X,X7),
+				writtenBy(X,X8),
+				isA(X,"Film"),
+				isA(X,"entity"),
+					citizenOf(X4,"United Kingdom"),
+					citizenOf(X4,X10),
+					citizenOf(X6,X10),
+					citizenOf(X6,X3),
+					citizenOf(X6,"United States"),
+					citizenOf(X8,X10),
+					citizenOf(X8,X3),
+					citizenOf(X8,"United States"),
+					citizenOf(X11,X3),
+						citizenOf(X11,"United Kingdom"),
+						citizenOf(X11,X10),
+						citizenOf(X11,"United States").
+ 
+%=========================================================================
+ 
+% U_307 = {"The Prestige", "The Dark Knight", "Anthony Hopkins"} 
+ 
+characterization(307,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_308 = {"The Prestige", "The Dark Knight", "Mediapro"} 
+ 
+characterization(308,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_309 = {"The Prestige", "The Dark Knight", "Hugo"} 
+ 
+characterization(309,X) :-	producedBy(X,X1),
+				releasedIn(X,X3),
+				starring(X,X4),
+				hasPeriod(X,"00's"),
+				hasGenre(X,X5),
+				directedBy(X,X6),
+				hasRating(X,X7),
+				writtenBy(X,X8),
+				isA(X,"Film"),
+				isA(X,"entity"),
+					citizenOf(X4,"United Kingdom"),
+					citizenOf(X6,"United States"),
+					citizenOf(X8,"United States"),
+					citizenOf(X10,X3),
+						citizenOf(X10,"United Kingdom").
+ 
+%=========================================================================
+ 
+% U_310 = {"The Prestige", "The Dark Knight", "Asa Butterfield"} 
+ 
+characterization(310,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_311 = {"The Prestige", "The Dark Knight", "The Adventures of Tintin"} 
+ 
+characterization(311,X) :-	producedBy(X,X1),
+				releasedIn(X,X3),
+				starring(X,X4),
+				hasPeriod(X,"00's"),
+				hasGenre(X,X5),
+				directedBy(X,X6),
+				hasRating(X,X7),
+				writtenBy(X,X8),
+				isA(X,"Film"),
+				isA(X,"entity"),
+					citizenOf(X4,"United Kingdom"),
+					citizenOf(X6,X3),
+					citizenOf(X6,"United States"),
+					citizenOf(X8,X10).
+ 
+%=========================================================================
+ 
+% U_312 = {"The Prestige", "The Dark Knight", "Animation"} 
+ 
+characterization(312,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_313 = {"The Prestige", "The Dark Knight", "Hergé"} 
+ 
+characterization(313,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_314 = {"The Prestige", "The Dark Knight", "Jamie Bell"} 
+ 
+characterization(314,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_315 = {"The Prestige", "The Dark Knight", "War Horse"} 
+ 
+characterization(315,X) :-	producedBy(X,X1),
+				releasedIn(X,X3),
+				starring(X,X4),
+				hasPeriod(X,"00's"),
+				hasGenre(X,X5),
+				directedBy(X,X6),
+				hasRating(X,"PG-13"),
+				writtenBy(X,X7),
+				isA(X,"Film"),
+				isA(X,"entity"),
+					citizenOf(X4,"United Kingdom"),
+					citizenOf(X6,X3),
+					citizenOf(X6,"United States"),
+					citizenOf(X7,"United Kingdom").
+ 
+%=========================================================================
+ 
+% U_316 = {"The Prestige", "The Dark Knight", "Lee Hall"} 
+ 
+characterization(316,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_317 = {"The Prestige", "The Dark Knight", "Jeremy Irvine"} 
+ 
+characterization(317,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_318 = {"The Prestige", "The Dark Knight", "Midnight in Paris"} 
+ 
+characterization(318,X) :-	producedBy(X,X1),
+				releasedIn(X,X3),
+				starring(X,X4),
+				hasPeriod(X,"00's"),
+				hasGenre(X,X5),
+				directedBy(X,X6),
+				hasRating(X,"PG-13"),
+				writtenBy(X,X7),
+				isA(X,"Film"),
+				isA(X,"entity"),
+					citizenOf(X4,X8),
+					citizenOf(X6,X8),
+					citizenOf(X6,"United States"),
+					citizenOf(X7,X8),
+					citizenOf(X7,"United States").
+ 
+%=========================================================================
+ 
+% U_319 = {"The Prestige", "The Dark Knight", "Owen Wilson"} 
+ 
+characterization(319,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_320 = {"The Prestige", "The Dark Knight", "The Dark Knight Rises"} 
+ 
+characterization(320,X) :-	releasedIn(X,X1),
+				hasPeriod(X,X3),
+				producedBy(X,X4),
+				hasGenre(X,X5),
+				starring(X,"Christian Bale"),
+				writtenBy(X,"Jonathan Nolan"),
+				hasRating(X,"PG-13"),
+				isA(X,"Film"),
+				directedBy(X,"Christopher Nolan"),
+				isA(X,"entity"),
+					citizenOf("Christian Bale","United Kingdom"),
+					citizenOf("Jonathan Nolan","United Kingdom"),
+					citizenOf("Jonathan Nolan",X1),
+					citizenOf("Jonathan Nolan","United States"),
+					citizenOf("Christopher Nolan","United Kingdom"),
+					citizenOf("Christopher Nolan",X1),
+					citizenOf("Christopher Nolan","United States").
+ 
+%=========================================================================
+ 
+% U_321 = {"The Prestige", "The Dark Knight", "Django Unchained"} 
+ 
+characterization(321,X) :-	releasedIn(X,X1),
+				hasPeriod(X,X3),
+				producedBy(X,X4),
+				hasGenre(X,X5),
+				starring(X,X6),
+				writtenBy(X,X7),
+				hasRating(X,X8),
+				isA(X,"Film"),
+				directedBy(X,X9),
+				isA(X,"entity"),
+					citizenOf(X6,X10),
+					citizenOf(X7,X10),
+					citizenOf(X7,X1),
+					citizenOf(X7,"United States"),
+					citizenOf(X9,X10),
+					citizenOf(X9,X1),
+					citizenOf(X9,"United States").
+ 
+%=========================================================================
+ 
+% U_322 = {"The Prestige", "The Dark Knight", "Jamie Foxx"} 
+ 
+characterization(322,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_323 = {"The Prestige", "The Dark Knight", "Lincoln"} 
+ 
+characterization(323,X) :-	releasedIn(X,X1),
+				hasPeriod(X,X3),
+				producedBy(X,X4),
+				hasGenre(X,X5),
+				starring(X,X6),
+				writtenBy(X,X7),
+				hasRating(X,"PG-13"),
+				isA(X,"Film"),
+				directedBy(X,X8),
+				isA(X,"entity"),
+					citizenOf(X6,"United Kingdom"),
+					citizenOf(X7,X1),
+					citizenOf(X7,"United States"),
+					citizenOf(X8,X1),
+					citizenOf(X8,"United States").
+ 
+%=========================================================================
+ 
+% U_324 = {"The Prestige", "The Dark Knight", "To Rome with Love"} 
+ 
+characterization(324,X) :-	releasedIn(X,X1),
+				hasPeriod(X,X3),
+				producedBy(X,X4),
+				hasGenre(X,X5),
+				starring(X,X6),
+				writtenBy(X,X7),
+				hasRating(X,X8),
+				isA(X,"Film"),
+				directedBy(X,X9),
+				isA(X,"entity"),
+					citizenOf(X6,X10),
+					citizenOf(X7,X10),
+					citizenOf(X7,X1),
+					citizenOf(X7,"United States"),
+					citizenOf(X9,X10),
+					citizenOf(X9,X1),
+					citizenOf(X9,"United States").
+ 
+%=========================================================================
+ 
+% U_325 = {"The Prestige", "The Dark Knight", "Medusa Film"} 
+ 
+characterization(325,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_326 = {"The Prestige", "The Dark Knight", "The Wolf of Wall Street"} 
+ 
+characterization(326,X) :-	releasedIn(X,X1),
+				hasPeriod(X,X3),
+				producedBy(X,X4),
+				hasGenre(X,X5),
+				starring(X,X6),
+				writtenBy(X,X7),
+				hasRating(X,X8),
+				isA(X,"Film"),
+				directedBy(X,X9),
+				isA(X,"entity"),
+					citizenOf(X6,X10),
+					citizenOf(X7,X10),
+					citizenOf(X7,X1),
+					citizenOf(X7,"United States"),
+					citizenOf(X9,X10),
+					citizenOf(X9,X1),
+					citizenOf(X9,"United States").
+ 
+%=========================================================================
+ 
+% U_327 = {"The Prestige", "The Dark Knight", "Terence Winter"} 
+ 
+characterization(327,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_328 = {"The Prestige", "The Dark Knight", "Red Granite Pictures"} 
+ 
+characterization(328,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_329 = {"The Prestige", "The Dark Knight", "Blue Jasmine"} 
+ 
+characterization(329,X) :-	releasedIn(X,X1),
+				hasPeriod(X,X3),
+				producedBy(X,X4),
+				hasGenre(X,X5),
+				starring(X,X6),
+				writtenBy(X,X7),
+				hasRating(X,"PG-13"),
+				isA(X,"Film"),
+				directedBy(X,X8),
+				isA(X,"entity"),
+					citizenOf(X6,X9),
+					citizenOf(X7,X9),
+					citizenOf(X7,X1),
+					citizenOf(X7,"United States"),
+					citizenOf(X8,X9),
+					citizenOf(X8,X1),
+					citizenOf(X8,"United States").
+ 
+%=========================================================================
+ 
+% U_330 = {"The Prestige", "The Dark Knight", "Cate Blanchett"} 
+ 
+characterization(330,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_331 = {"The Prestige", "The Dark Knight", "Gravier Productions"} 
+ 
+characterization(331,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_332 = {"The Prestige", "The Dark Knight", "Interstellar"} 
+ 
+characterization(332,X) :-	releasedIn(X,X1),
+				hasPeriod(X,X3),
+				producedBy(X,X4),
+				hasGenre(X,X5),
+				starring(X,X6),
+				writtenBy(X,"Jonathan Nolan"),
+				hasRating(X,"PG-13"),
+				isA(X,"Film"),
+				directedBy(X,"Christopher Nolan"),
+				isA(X,"entity"),
+					citizenOf(X6,X7),
+					citizenOf("Jonathan Nolan","United Kingdom"),
+					citizenOf("Jonathan Nolan",X7),
+					citizenOf("Jonathan Nolan",X1),
+					citizenOf("Jonathan Nolan","United States"),
+					citizenOf("Christopher Nolan","United Kingdom"),
+					citizenOf("Christopher Nolan",X7),
+					citizenOf("Christopher Nolan",X1),
+					citizenOf("Christopher Nolan","United States").
+ 
+%=========================================================================
+ 
+% U_333 = {"The Prestige", "The Dark Knight", "Matthew McConaughey"} 
+ 
+characterization(333,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_334 = {"The Prestige", "The Dark Knight", "Magic in the Moonlight"} 
+ 
+characterization(334,X) :-	releasedIn(X,X1),
+				hasPeriod(X,X3),
+				producedBy(X,X4),
+				hasGenre(X,X5),
+				starring(X,X6),
+				writtenBy(X,X7),
+				hasRating(X,"PG-13"),
+				isA(X,"Film"),
+				directedBy(X,X8),
+				isA(X,"entity"),
+					citizenOf(X6,"United Kingdom"),
+					citizenOf(X7,X1),
+					citizenOf(X7,"United States"),
+					citizenOf(X8,X1),
+					citizenOf(X8,"United States").
+ 
+%=========================================================================
+ 
+% U_335 = {"The Prestige", "The Dark Knight", "Colin Firth"} 
+ 
+characterization(335,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_336 = {"The Prestige", "The Dark Knight", "The Hateful Eight"} 
+ 
+characterization(336,X) :-	releasedIn(X,X1),
+				hasPeriod(X,X3),
+				producedBy(X,X4),
+				hasGenre(X,X5),
+				starring(X,X6),
+				writtenBy(X,X7),
+				hasRating(X,X8),
+				isA(X,"Film"),
+				directedBy(X,X9),
+				isA(X,"entity"),
+					citizenOf(X6,X10),
+					citizenOf(X7,X10),
+					citizenOf(X7,X1),
+					citizenOf(X7,"United States"),
+					citizenOf(X9,X10),
+					citizenOf(X9,X1),
+					citizenOf(X9,"United States").
+ 
+%=========================================================================
+ 
+% U_337 = {"The Prestige", "The Dark Knight", "Samuel L. Jackson"} 
+ 
+characterization(337,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_338 = {"The Prestige", "The Dark Knight", "Visiona Romantica"} 
+ 
+characterization(338,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_339 = {"The Prestige", "The Dark Knight", "Bridge of Spies"} 
+ 
+characterization(339,X) :-	releasedIn(X,X1),
+				hasPeriod(X,X3),
+				producedBy(X,X4),
+				hasGenre(X,X5),
+				starring(X,X6),
+				writtenBy(X,X7),
+				hasRating(X,"PG-13"),
+				isA(X,"Film"),
+				directedBy(X,X8),
+				isA(X,"entity"),
+					citizenOf(X6,X9),
+					citizenOf(X7,"United Kingdom"),
+					citizenOf(X8,X9),
+					citizenOf(X8,X1),
+					citizenOf(X8,"United States").
+ 
+%=========================================================================
+ 
+% U_340 = {"The Prestige", "The Dark Knight", "Matt Charman"} 
+ 
+characterization(340,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_341 = {"The Prestige", "The Dark Knight", "Irrational Man"} 
+ 
+characterization(341,X) :-	releasedIn(X,X1),
+				hasPeriod(X,X3),
+				producedBy(X,X4),
+				hasGenre(X,X5),
+				starring(X,X6),
+				writtenBy(X,X7),
+				hasRating(X,X8),
+				isA(X,"Film"),
+				directedBy(X,X9),
+				isA(X,"entity"),
+					citizenOf(X6,X10),
+					citizenOf(X7,X10),
+					citizenOf(X7,X1),
+					citizenOf(X7,"United States"),
+					citizenOf(X9,X10),
+					citizenOf(X9,X1),
+					citizenOf(X9,"United States").
+ 
+%=========================================================================
+ 
+% U_342 = {"The Prestige", "The Dark Knight", "Joaquin Phoenix"} 
+ 
+characterization(342,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_343 = {"The Prestige", "The Dark Knight", "The BFG"} 
+ 
+characterization(343,X) :-	releasedIn(X,X1),
+				hasPeriod(X,X3),
+				producedBy(X,X4),
+				hasGenre(X,X5),
+				starring(X,X6),
+				writtenBy(X,X7),
+				hasRating(X,X8),
+				isA(X,"Film"),
+				directedBy(X,X9),
+				isA(X,"entity"),
+					citizenOf(X6,"United Kingdom"),
+					citizenOf(X7,X1),
+					citizenOf(X7,"United States"),
+					citizenOf(X9,X1),
+					citizenOf(X9,"United States").
+ 
+%=========================================================================
+ 
+% U_344 = {"The Prestige", "The Dark Knight", "Mark Rylance"} 
+ 
+characterization(344,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_345 = {"The Prestige", "The Dark Knight", "Walt Disney Pictures"} 
+ 
+characterization(345,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_346 = {"The Prestige", "The Dark Knight", "Café Society"} 
+ 
+characterization(346,X) :-	releasedIn(X,X1),
+				hasPeriod(X,X3),
+				producedBy(X,X4),
+				hasGenre(X,X5),
+				starring(X,X6),
+				writtenBy(X,X7),
+				hasRating(X,"PG-13"),
+				isA(X,"Film"),
+				directedBy(X,X8),
+				isA(X,"entity"),
+					citizenOf(X6,X9),
+					citizenOf(X7,X9),
+					citizenOf(X7,X1),
+					citizenOf(X7,"United States"),
+					citizenOf(X8,X9),
+					citizenOf(X8,X1),
+					citizenOf(X8,"United States").
+ 
+%=========================================================================
+ 
+% U_347 = {"The Prestige", "The Dark Knight", "Jesse Eisenberg"} 
+ 
+characterization(347,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_348 = {"The Prestige", "The Dark Knight", "Dunkirk"} 
+ 
+characterization(348,X) :-	releasedIn(X,X1),
+				hasPeriod(X,X3),
+				producedBy(X,X4),
+				hasGenre(X,X5),
+				starring(X,X6),
+				writtenBy(X,X7),
+				hasRating(X,"PG-13"),
+				isA(X,"Film"),
+				directedBy(X,"Christopher Nolan"),
+				isA(X,"entity"),
+					citizenOf(X6,"United Kingdom"),
+					citizenOf(X7,"United Kingdom"),
+					citizenOf(X7,X1),
+					citizenOf(X7,"United States"),
+					citizenOf("Christopher Nolan","United Kingdom"),
+					citizenOf("Christopher Nolan",X1),
+					citizenOf("Christopher Nolan","United States").
+ 
+%=========================================================================
+ 
+% U_349 = {"The Prestige", "The Dark Knight", "Fionn Whitehead"} 
+ 
+characterization(349,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_350 = {"The Prestige", "The Dark Knight", "Syncopy"} 
+ 
+characterization(350,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_351 = {"The Prestige", "The Dark Knight", "Silence"} 
+ 
+characterization(351,X) :-	releasedIn(X,X1),
+				hasPeriod(X,X3),
+				producedBy(X,X4),
+				hasGenre(X,X5),
+				starring(X,X6),
+				writtenBy(X,X7),
+				hasRating(X,X8),
+				isA(X,"Film"),
+				directedBy(X,X9),
+				isA(X,"entity"),
+					citizenOf(X6,"United Kingdom"),
+					citizenOf(X6,X11),
+					citizenOf(X7,X11),
+					citizenOf(X7,X1),
+					citizenOf(X7,"United States"),
+					citizenOf(X9,X11),
+					citizenOf(X9,X1),
+					citizenOf(X9,"United States"),
+					citizenOf(X12,X1),
+						citizenOf(X12,"United Kingdom"),
+						citizenOf(X12,X11),
+						citizenOf(X12,"United States").
+ 
+%=========================================================================
+ 
+% U_352 = {"The Prestige", "The Dark Knight", "Andrew Garfield"} 
+ 
+characterization(352,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_353 = {"The Prestige", "The Dark Knight", "SharpSword Films"} 
+ 
+characterization(353,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_354 = {"The Prestige", "The Dark Knight", "Wonder Wheel"} 
+ 
+characterization(354,X) :-	releasedIn(X,X1),
+				hasPeriod(X,X3),
+				producedBy(X,X4),
+				hasGenre(X,X5),
+				starring(X,X6),
+				writtenBy(X,X7),
+				hasRating(X,"PG-13"),
+				isA(X,"Film"),
+				directedBy(X,X8),
+				isA(X,"entity"),
+					citizenOf(X6,X9),
+					citizenOf(X7,X9),
+					citizenOf(X7,X1),
+					citizenOf(X7,"United States"),
+					citizenOf(X8,X9),
+					citizenOf(X8,X1),
+					citizenOf(X8,"United States").
+ 
+%=========================================================================
+ 
+% U_355 = {"The Prestige", "The Dark Knight", "Justin Timberlake"} 
+ 
+characterization(355,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_356 = {"The Prestige", "The Dark Knight", "Amazon Studios"} 
+ 
+characterization(356,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_357 = {"The Prestige", "The Dark Knight", "The Post"} 
+ 
+characterization(357,X) :-	producedBy(X,X1),
+				releasedIn(X,X3),
+				starring(X,X4),
+				hasPeriod(X,X5),
+				hasGenre(X,X6),
+				directedBy(X,X7),
+				hasRating(X,"PG-13"),
+				writtenBy(X,X8),
+				isA(X,"Film"),
+				isA(X,"entity"),
+					citizenOf(X4,X9),
+					citizenOf(X7,X9),
+					citizenOf(X7,X3),
+					citizenOf(X7,"United States"),
+					citizenOf(X8,X9),
+					citizenOf(X8,X3),
+					citizenOf(X8,"United States").
+ 
+%=========================================================================
+ 
+% U_358 = {"The Prestige", "The Dark Knight", "20's"} 
+ 
+characterization(358,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_359 = {"The Prestige", "The Dark Knight", "Liz Hannah"} 
+ 
+characterization(359,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_360 = {"The Prestige", "The Dark Knight", "Meryl Streep"} 
+ 
+characterization(360,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_361 = {"The Prestige", "The Dark Knight", "Ready Player One"} 
+ 
+characterization(361,X) :-	producedBy(X,X1),
+				releasedIn(X,X3),
+				starring(X,X4),
+				hasPeriod(X,X5),
+				hasGenre(X,X6),
+				directedBy(X,X7),
+				hasRating(X,"PG-13"),
+				writtenBy(X,X8),
+				isA(X,"Film"),
+				isA(X,"entity"),
+					citizenOf(X4,X9),
+					citizenOf(X7,X9),
+					citizenOf(X7,X3),
+					citizenOf(X7,"United States"),
+					citizenOf(X8,X9),
+					citizenOf(X8,X3),
+					citizenOf(X8,"United States").
+ 
+%=========================================================================
+ 
+% U_362 = {"The Prestige", "The Dark Knight", "Zak Penn"} 
+ 
+characterization(362,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_363 = {"The Prestige", "The Dark Knight", "Tye Sheridan"} 
+ 
+characterization(363,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_364 = {"The Prestige", "The Dark Knight", "The Irishman"} 
+ 
+characterization(364,X) :-	producedBy(X,X1),
+				releasedIn(X,X3),
+				starring(X,X4),
+				hasPeriod(X,X5),
+				hasGenre(X,X6),
+				directedBy(X,X7),
+				hasRating(X,X8),
+				writtenBy(X,X9),
+				isA(X,"Film"),
+				isA(X,"entity"),
+					citizenOf(X4,X10),
+					citizenOf(X7,X10),
+					citizenOf(X7,X3),
+					citizenOf(X7,"United States"),
+					citizenOf(X9,X10),
+					citizenOf(X9,X3),
+					citizenOf(X9,"United States").
+ 
+%=========================================================================
+ 
+% U_365 = {"The Prestige", "The Dark Knight", "Steven Zaillian"} 
+ 
+characterization(365,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_366 = {"The Prestige", "The Dark Knight", "Tribeca Productions"} 
+ 
+characterization(366,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_367 = {"The Prestige", "The Dark Knight", "Once Upon a Time... In Hollywood"} 
+ 
+characterization(367,X) :-	producedBy(X,X1),
+				releasedIn(X,X3),
+				starring(X,X4),
+				hasPeriod(X,X5),
+				hasGenre(X,X6),
+				directedBy(X,X7),
+				hasRating(X,X8),
+				writtenBy(X,X9),
+				isA(X,"Film"),
+				isA(X,"entity"),
+					citizenOf(X4,X10),
+					citizenOf(X7,X10),
+					citizenOf(X7,X3),
+					citizenOf(X7,"United States"),
+					citizenOf(X9,X10),
+					citizenOf(X9,X3),
+					citizenOf(X9,"United States").
+ 
+%=========================================================================
+ 
+% U_368 = {"The Prestige", "The Dark Knight", "Tenet"} 
+ 
+characterization(368,X) :-	producedBy(X,X1),
+				releasedIn(X,X3),
+				starring(X,X4),
+				hasPeriod(X,X5),
+				hasGenre(X,X6),
+				directedBy(X,"Christopher Nolan"),
+				hasRating(X,"PG-13"),
+				writtenBy(X,X7),
+				isA(X,"Film"),
+				isA(X,"entity"),
+					citizenOf(X4,X8),
+					citizenOf("Christopher Nolan",X8),
+					citizenOf("Christopher Nolan",X3),
+					citizenOf("Christopher Nolan","United Kingdom"),
+					citizenOf("Christopher Nolan","United States"),
+					citizenOf(X7,"United Kingdom"),
+					citizenOf(X7,X8),
+					citizenOf(X7,X3),
+					citizenOf(X7,"United States").
+ 
+%=========================================================================
+ 
+% U_369 = {"The Prestige", "The Dark Knight", "John David Washington"} 
+ 
+characterization(369,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_370 = {"The Prestige", "The Dark Knight", "film director"} 
+ 
+characterization(370,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_371 = {"The Prestige", "The Dark Knight", "filmmaker"} 
+ 
+characterization(371,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_372 = {"The Prestige", "The Dark Knight", "producer"} 
+ 
+characterization(372,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_373 = {"The Prestige", "The Dark Knight", "creator"} 
+ 
+characterization(373,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_374 = {"The Prestige", "The Dark Knight", "person"} 
+ 
+characterization(374,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_375 = {"The Prestige", "The Dark Knight", "entity"} 
+ 
+characterization(375,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_376 = {"The Prestige", "The Dark Knight", "screenwriter"} 
+ 
+characterization(376,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_377 = {"The Prestige", "The Dark Knight", "scriptwriter"} 
+ 
+characterization(377,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_378 = {"The Prestige", "The Dark Knight", "writer"} 
+ 
+characterization(378,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_379 = {"The Prestige", "The Dark Knight", "author"} 
+ 
+characterization(379,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_380 = {"The Prestige", "The Dark Knight", "communicator"} 
+ 
+characterization(380,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_381 = {"The Prestige", "The Dark Knight", "actor"} 
+ 
+characterization(381,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_382 = {"The Prestige", "The Dark Knight", "performer"} 
+ 
+characterization(382,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_383 = {"The Prestige", "The Dark Knight", "entertainer"} 
+ 
+characterization(383,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_384 = {"The Prestige", "The Dark Knight", "New Zealand"} 
+ 
+characterization(384,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_385 = {"The Prestige", "The Dark Knight", "Austria"} 
+ 
+characterization(385,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_386 = {"The Prestige", "The Dark Knight", "Australia"} 
+ 
+characterization(386,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_387 = {"The Prestige", "The Dark Knight", "Republic of Ireland"} 
+ 
+characterization(387,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_388 = {"The Prestige", "The Dark Knight", "Republic of Benin"} 
+ 
+characterization(388,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_389 = {"The Prestige", "The Dark Knight", "Romania"} 
+ 
+characterization(389,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_390 = {"The Prestige", "The Dark Knight", "Belgium"} 
+ 
+characterization(390,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_391 = {"The Prestige", "The Dark Knight", "United States "} 
+ 
+characterization(391,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_392 = {"The Prestige", "The Dark Knight", "actor "} 
+ 
+characterization(392,X) :-	top(X).
+ 
+%=========================================================================
+ 
+% U_393 = {"The Prestige", "The Dark Knight", "Puerto Rico"} 
+ 
+characterization(393,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_394 = {"The Prestige", "The Dark Knight", "Republic of Poland"} 
+ 
+characterization(394,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_395 = {"The Prestige", "The Dark Knight", "Netherlands"} 
+ 
+characterization(395,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_396 = {"The Prestige", "The Dark Knight", "Greece"} 
+ 
+characterization(396,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_397 = {"The Prestige", "The Dark Knight", "Germany"} 
+ 
+characterization(397,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_398 = {"The Prestige", "The Dark Knight", "India"} 
+ 
+characterization(398,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_399 = {"The Prestige", "The Dark Knight", "Czechoslovakia"} 
+ 
+characterization(399,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 

@@ -1,0 +1,2853 @@
+% U_001 = {"Martin Scorsese", "Steven Spielberg"} 
+ 
+characterization(001,X) :-	isA(X,"film director"),
+				isA(X,"screenwriter"),
+				isA(X,"person"),
+				citizenOf(X,"United States"),
+				isA(X,"producer"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_002 = {"Martin Scorsese", "Steven Spielberg", "Raging Bull"} 
+ 
+characterization(002,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_003 = {"Martin Scorsese", "Steven Spielberg", "Film"} 
+ 
+characterization(003,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_004 = {"Martin Scorsese", "Steven Spielberg", "R"} 
+ 
+characterization(004,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_005 = {"Martin Scorsese", "Steven Spielberg", "Rating"} 
+ 
+characterization(005,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_006 = {"Martin Scorsese", "Steven Spielberg", "Biography"} 
+ 
+characterization(006,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_007 = {"Martin Scorsese", "Steven Spielberg", "Genre"} 
+ 
+characterization(007,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_008 = {"Martin Scorsese", "Steven Spielberg", "80's"} 
+ 
+characterization(008,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_009 = {"Martin Scorsese", "Steven Spielberg", "Period"} 
+ 
+characterization(009,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_010 = {"Martin Scorsese", "Steven Spielberg", "Jake LaMotta"} 
+ 
+characterization(010,X) :-	isA(X,"screenwriter"),
+				isA(X,"person"),
+				citizenOf(X,"United States"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_011 = {"Martin Scorsese", "Steven Spielberg", "Robert De Niro"} 
+ 
+characterization(011,X) :-	isA(X,"producer"),
+				isA(X,"person"),
+				citizenOf(X,"United States"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_012 = {"Martin Scorsese", "Steven Spielberg", "United States"} 
+ 
+characterization(012,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_013 = {"Martin Scorsese", "Steven Spielberg", "Country"} 
+ 
+characterization(013,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_014 = {"Martin Scorsese", "Steven Spielberg", "Chartoff-Winkler Productions"} 
+ 
+characterization(014,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_015 = {"Martin Scorsese", "Steven Spielberg", "Production House"} 
+ 
+characterization(015,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_016 = {"Martin Scorsese", "Steven Spielberg", "The Shining"} 
+ 
+characterization(016,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_017 = {"Martin Scorsese", "Steven Spielberg", "Drama"} 
+ 
+characterization(017,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_018 = {"Martin Scorsese", "Steven Spielberg", "Stanley Kubrick"} 
+ 
+characterization(018,X) :-	isA(X,"film director"),
+				isA(X,"screenwriter"),
+				isA(X,"person"),
+				citizenOf(X,"United States"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_019 = {"Martin Scorsese", "Steven Spielberg", "Stephen King"} 
+ 
+characterization(019,X) :-	isA(X,"screenwriter"),
+				isA(X,"person"),
+				citizenOf(X,"United States"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_020 = {"Martin Scorsese", "Steven Spielberg", "Jack Nicholson"} 
+ 
+characterization(020,X) :-	isA(X,"film director"),
+				isA(X,"person"),
+				citizenOf(X,"United States"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_021 = {"Martin Scorsese", "Steven Spielberg", "United Kingdom"} 
+ 
+characterization(021,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_022 = {"Martin Scorsese", "Steven Spielberg", "Warner Bros."} 
+ 
+characterization(022,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_023 = {"Martin Scorsese", "Steven Spielberg", "Stardust Memories"} 
+ 
+characterization(023,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_024 = {"Martin Scorsese", "Steven Spielberg", "PG"} 
+ 
+characterization(024,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_025 = {"Martin Scorsese", "Steven Spielberg", "Comedy"} 
+ 
+characterization(025,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_026 = {"Martin Scorsese", "Steven Spielberg", "Woody Allen"} 
+ 
+characterization(026,X) :-	isA(X,"film director"),
+				isA(X,"screenwriter"),
+				isA(X,"person"),
+				citizenOf(X,"United States"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_027 = {"Martin Scorsese", "Steven Spielberg", "Jack Rollins & Charles H. Joffe Productions"} 
+ 
+characterization(027,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_028 = {"Martin Scorsese", "Steven Spielberg", "Buddy Buddy"} 
+ 
+characterization(028,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_029 = {"Martin Scorsese", "Steven Spielberg", "Billy Wilder"} 
+ 
+characterization(029,X) :-	isA(X,"film director"),
+				isA(X,"screenwriter"),
+				isA(X,"person"),
+				citizenOf(X,"United States"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_030 = {"Martin Scorsese", "Steven Spielberg", "Francis Veber"} 
+ 
+characterization(030,X) :-	citizenOf(X,X1),
+				isA(X,"screenwriter"),
+				isA(X,"producer"),
+				isA(X,"film director"),
+				isA(X,"person"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_031 = {"Martin Scorsese", "Steven Spielberg", "Jack Lemmon"} 
+ 
+characterization(031,X) :-	isA(X,"person"),
+				citizenOf(X,"United States"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_032 = {"Martin Scorsese", "Steven Spielberg", "Heron Productions"} 
+ 
+characterization(032,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_033 = {"Martin Scorsese", "Steven Spielberg", "City of Women"} 
+ 
+characterization(033,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_034 = {"Martin Scorsese", "Steven Spielberg", "Federico Fellini"} 
+ 
+characterization(034,X) :-	citizenOf(X,X1),
+				isA(X,"screenwriter"),
+				isA(X,"person"),
+				isA(X,"film director"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_035 = {"Martin Scorsese", "Steven Spielberg", "Marcello Mastroianni"} 
+ 
+characterization(035,X) :-	citizenOf(X,X1),
+				isA(X,"person"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_036 = {"Martin Scorsese", "Steven Spielberg", "Italy"} 
+ 
+characterization(036,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_037 = {"Martin Scorsese", "Steven Spielberg", "Opera Film Produzione"} 
+ 
+characterization(037,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_038 = {"Martin Scorsese", "Steven Spielberg", "Indiana Jones and the Raiders of the Lost Ark"} 
+ 
+characterization(038,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_039 = {"Martin Scorsese", "Steven Spielberg", "Action"} 
+ 
+characterization(039,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_040 = {"Martin Scorsese", "Steven Spielberg", "Lawrence Kasdan"} 
+ 
+characterization(040,X) :-	isA(X,"film director"),
+				isA(X,"screenwriter"),
+				isA(X,"person"),
+				citizenOf(X,"United States"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_041 = {"Martin Scorsese", "Steven Spielberg", "Harrison Ford"} 
+ 
+characterization(041,X) :-	isA(X,"person"),
+				citizenOf(X,"United States"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_042 = {"Martin Scorsese", "Steven Spielberg", "Paramount Pictures"} 
+ 
+characterization(042,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_043 = {"Martin Scorsese", "Steven Spielberg", "One from the Heart"} 
+ 
+characterization(043,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_044 = {"Martin Scorsese", "Steven Spielberg", "Francis Ford Coppola"} 
+ 
+characterization(044,X) :-	isA(X,"film director"),
+				isA(X,"screenwriter"),
+				isA(X,"producer"),
+				isA(X,"person"),
+				citizenOf(X,"United States"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_045 = {"Martin Scorsese", "Steven Spielberg", "Armyan Bernstein"} 
+ 
+characterization(045,X) :-	isA(X,"film director"),
+				isA(X,"screenwriter"),
+				isA(X,"person"),
+				citizenOf(X,"United States"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_046 = {"Martin Scorsese", "Steven Spielberg", "Frederic Forrest"} 
+ 
+characterization(046,X) :-	isA(X,"person"),
+				citizenOf(X,"United States"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_047 = {"Martin Scorsese", "Steven Spielberg", "Zoetrope Studios"} 
+ 
+characterization(047,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_048 = {"Martin Scorsese", "Steven Spielberg", "E.T. the Extra-Terrestrial"} 
+ 
+characterization(048,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_049 = {"Martin Scorsese", "Steven Spielberg", "Family"} 
+ 
+characterization(049,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_050 = {"Martin Scorsese", "Steven Spielberg", "Melissa Mathison"} 
+ 
+characterization(050,X) :-	isA(X,"screenwriter"),
+				isA(X,"person"),
+				citizenOf(X,"United States"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_051 = {"Martin Scorsese", "Steven Spielberg", "Henry Thomas"} 
+ 
+characterization(051,X) :-	isA(X,"person"),
+				citizenOf(X,"United States"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_052 = {"Martin Scorsese", "Steven Spielberg", "Universal Pictures"} 
+ 
+characterization(052,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_053 = {"Martin Scorsese", "Steven Spielberg", "A Midsummer Night's Sex Comedy"} 
+ 
+characterization(053,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_054 = {"Martin Scorsese", "Steven Spielberg", "The Outsiders"} 
+ 
+characterization(054,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_055 = {"Martin Scorsese", "Steven Spielberg", "Crime"} 
+ 
+characterization(055,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_056 = {"Martin Scorsese", "Steven Spielberg", "Kathleen Rowell"} 
+ 
+characterization(056,X) :-	isA(X,"screenwriter"),
+				isA(X,"producer"),
+				isA(X,"person"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_057 = {"Martin Scorsese", "Steven Spielberg", "C. Thomas Howell"} 
+ 
+characterization(057,X) :-	isA(X,"film director"),
+				isA(X,"screenwriter"),
+				isA(X,"person"),
+				citizenOf(X,"United States"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_058 = {"Martin Scorsese", "Steven Spielberg", "Rumble Fish"} 
+ 
+characterization(058,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_059 = {"Martin Scorsese", "Steven Spielberg", "S.E. Hinton"} 
+ 
+characterization(059,X) :-	isA(X,"screenwriter"),
+				isA(X,"person"),
+				citizenOf(X,"United States"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_060 = {"Martin Scorsese", "Steven Spielberg", "Matt Dillon"} 
+ 
+characterization(060,X) :-	isA(X,"person"),
+				citizenOf(X,"United States"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_061 = {"Martin Scorsese", "Steven Spielberg", "The King of Comedy"} 
+ 
+characterization(061,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_062 = {"Martin Scorsese", "Steven Spielberg", "Paul D. Zimmerman"} 
+ 
+characterization(062,X) :-	isA(X,"screenwriter"),
+				isA(X,"person"),
+				citizenOf(X,"United States"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_063 = {"Martin Scorsese", "Steven Spielberg", "Embassy International Pictures"} 
+ 
+characterization(063,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_064 = {"Martin Scorsese", "Steven Spielberg", "Zelig"} 
+ 
+characterization(064,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_065 = {"Martin Scorsese", "Steven Spielberg", "Dune"} 
+ 
+characterization(065,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_066 = {"Martin Scorsese", "Steven Spielberg", "PG-13"} 
+ 
+characterization(066,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_067 = {"Martin Scorsese", "Steven Spielberg", "David Lynch"} 
+ 
+characterization(067,X) :-	isA(X,"film director"),
+				isA(X,"screenwriter"),
+				isA(X,"person"),
+				citizenOf(X,"United States"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_068 = {"Martin Scorsese", "Steven Spielberg", "Frank Herbert"} 
+ 
+characterization(068,X) :-	isA(X,"screenwriter"),
+				isA(X,"person"),
+				citizenOf(X,"United States"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_069 = {"Martin Scorsese", "Steven Spielberg", "Kyle MacLachlan"} 
+ 
+characterization(069,X) :-	isA(X,"person"),
+				citizenOf(X,"United States"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_070 = {"Martin Scorsese", "Steven Spielberg", "Dino De Laurentiis Company"} 
+ 
+characterization(070,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_071 = {"Martin Scorsese", "Steven Spielberg", "The Cotton Club"} 
+ 
+characterization(071,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_072 = {"Martin Scorsese", "Steven Spielberg", "William Kennedy"} 
+ 
+characterization(072,X) :-	isA(X,"screenwriter"),
+				isA(X,"person"),
+				citizenOf(X,"United States"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_073 = {"Martin Scorsese", "Steven Spielberg", "Richard Gere"} 
+ 
+characterization(073,X) :-	isA(X,"person"),
+				citizenOf(X,"United States"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_074 = {"Martin Scorsese", "Steven Spielberg", "Indiana Jones and the Temple of Doom"} 
+ 
+characterization(074,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_075 = {"Martin Scorsese", "Steven Spielberg", "Willard Huyck"} 
+ 
+characterization(075,X) :-	isA(X,"film director"),
+				isA(X,"screenwriter"),
+				isA(X,"producer"),
+				isA(X,"person"),
+				citizenOf(X,"United States"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_076 = {"Martin Scorsese", "Steven Spielberg", "Broadway Danny Rose"} 
+ 
+characterization(076,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_077 = {"Martin Scorsese", "Steven Spielberg", "Orion Pictures"} 
+ 
+characterization(077,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_078 = {"Martin Scorsese", "Steven Spielberg", "After Hours"} 
+ 
+characterization(078,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_079 = {"Martin Scorsese", "Steven Spielberg", "Joseph Minion"} 
+ 
+characterization(079,X) :-	isA(X,"screenwriter"),
+				isA(X,"producer"),
+				isA(X,"film director"),
+				isA(X,"person"),
+				citizenOf(X,"United States"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_080 = {"Martin Scorsese", "Steven Spielberg", "Griffin Dunne"} 
+ 
+characterization(080,X) :-	isA(X,"film director"),
+				isA(X,"producer"),
+				isA(X,"person"),
+				citizenOf(X,"United States"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_081 = {"Martin Scorsese", "Steven Spielberg", "The Geffen Company"} 
+ 
+characterization(081,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_082 = {"Martin Scorsese", "Steven Spielberg", "The Purple Rose of Cairo"} 
+ 
+characterization(082,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_083 = {"Martin Scorsese", "Steven Spielberg", "Mia Farrow"} 
+ 
+characterization(083,X) :-	isA(X,"person"),
+				citizenOf(X,"United States"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_084 = {"Martin Scorsese", "Steven Spielberg", "Blue Velvet"} 
+ 
+characterization(084,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_085 = {"Martin Scorsese", "Steven Spielberg", "Isabella Rossellini"} 
+ 
+characterization(085,X) :-	isA(X,"person"),
+				citizenOf(X,"United States"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_086 = {"Martin Scorsese", "Steven Spielberg", "De Laurentiis Entertainment Group [DEG]"} 
+ 
+characterization(086,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_087 = {"Martin Scorsese", "Steven Spielberg", "Ginger and Fred"} 
+ 
+characterization(087,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_088 = {"Martin Scorsese", "Steven Spielberg", "Produzioni Europee Associate [PEA]"} 
+ 
+characterization(088,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_089 = {"Martin Scorsese", "Steven Spielberg", "Peggy Sue Got Married"} 
+ 
+characterization(089,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_090 = {"Martin Scorsese", "Steven Spielberg", "Jerry Leichtling"} 
+ 
+characterization(090,X) :-	isA(X,"screenwriter"),
+				isA(X,"producer"),
+				isA(X,"person"),
+				citizenOf(X,"United States"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_091 = {"Martin Scorsese", "Steven Spielberg", "Kathleen Turner"} 
+ 
+characterization(091,X) :-	isA(X,"person"),
+				citizenOf(X,"United States"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_092 = {"Martin Scorsese", "Steven Spielberg", "TriStar Pictures"} 
+ 
+characterization(092,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_093 = {"Martin Scorsese", "Steven Spielberg", "The Color of Money"} 
+ 
+characterization(093,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_094 = {"Martin Scorsese", "Steven Spielberg", "Walter Tevis"} 
+ 
+characterization(094,X) :-	isA(X,"screenwriter"),
+				isA(X,"person"),
+				citizenOf(X,"United States"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_095 = {"Martin Scorsese", "Steven Spielberg", "Paul Newman"} 
+ 
+characterization(095,X) :-	isA(X,"person"),
+				citizenOf(X,"United States"),
+				isA(X,"film director"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_096 = {"Martin Scorsese", "Steven Spielberg", "Touchstone Pictures"} 
+ 
+characterization(096,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_097 = {"Martin Scorsese", "Steven Spielberg", "The Color Purple"} 
+ 
+characterization(097,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_098 = {"Martin Scorsese", "Steven Spielberg", "Menno Meyjes"} 
+ 
+characterization(098,X) :-	citizenOf(X,X1),
+				isA(X,"film director"),
+				isA(X,"screenwriter"),
+				isA(X,"producer"),
+				isA(X,"person"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_099 = {"Martin Scorsese", "Steven Spielberg", "Danny Glover"} 
+ 
+characterization(099,X) :-	isA(X,"film director"),
+				isA(X,"person"),
+				citizenOf(X,"United States"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_100 = {"Martin Scorsese", "Steven Spielberg", "Amblin Entertainment"} 
+ 
+characterization(100,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_101 = {"Martin Scorsese", "Steven Spielberg", "Hannah and Her Sisters"} 
+ 
+characterization(101,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_102 = {"Martin Scorsese", "Steven Spielberg", "Gardens of Stone"} 
+ 
+characterization(102,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_103 = {"Martin Scorsese", "Steven Spielberg", "Nicholas Proffitt"} 
+ 
+characterization(103,X) :-	isA(X,"screenwriter"),
+				isA(X,"person"),
+				citizenOf(X,"United States"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_104 = {"Martin Scorsese", "Steven Spielberg", "James Caan"} 
+ 
+characterization(104,X) :-	isA(X,"person"),
+				citizenOf(X,"United States"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_105 = {"Martin Scorsese", "Steven Spielberg", "Full Metal Jacket"} 
+ 
+characterization(105,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_106 = {"Martin Scorsese", "Steven Spielberg", "Matthew Modine"} 
+ 
+characterization(106,X) :-	isA(X,"person"),
+				citizenOf(X,"United States"),
+				isA(X,"film director"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_107 = {"Martin Scorsese", "Steven Spielberg", "Natant"} 
+ 
+characterization(107,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_108 = {"Martin Scorsese", "Steven Spielberg", "Empire of the Sun"} 
+ 
+characterization(108,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_109 = {"Martin Scorsese", "Steven Spielberg", "Tom Stoppard"} 
+ 
+characterization(109,X) :-	citizenOf(X,X1),
+				isA(X,"screenwriter"),
+				isA(X,"person"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_110 = {"Martin Scorsese", "Steven Spielberg", "Christian Bale"} 
+ 
+characterization(110,X) :-	citizenOf(X,X1),
+				isA(X,"person"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_111 = {"Martin Scorsese", "Steven Spielberg", "September"} 
+ 
+characterization(111,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_112 = {"Martin Scorsese", "Steven Spielberg", "Elaine Stritch"} 
+ 
+characterization(112,X) :-	isA(X,"person"),
+				citizenOf(X,"United States"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_113 = {"Martin Scorsese", "Steven Spielberg", "Radio Days"} 
+ 
+characterization(113,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_114 = {"Martin Scorsese", "Steven Spielberg", "Tucker: The Man and His Dream"} 
+ 
+characterization(114,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_115 = {"Martin Scorsese", "Steven Spielberg", "90's"} 
+ 
+characterization(115,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_116 = {"Martin Scorsese", "Steven Spielberg", "Arnold Schulman"} 
+ 
+characterization(116,X) :-	isA(X,"screenwriter"),
+				isA(X,"person"),
+				citizenOf(X,"United States"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_117 = {"Martin Scorsese", "Steven Spielberg", "Jeff Bridges"} 
+ 
+characterization(117,X) :-	isA(X,"person"),
+				citizenOf(X,"United States"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_118 = {"Martin Scorsese", "Steven Spielberg", "Lucasfilm"} 
+ 
+characterization(118,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_119 = {"Martin Scorsese", "Steven Spielberg", "The Last Temptation of Christ"} 
+ 
+characterization(119,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_120 = {"Martin Scorsese", "Steven Spielberg", "Nikos Kazantzakis"} 
+ 
+characterization(120,X) :-	citizenOf(X,X1),
+				isA(X,"screenwriter"),
+				isA(X,"person"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_121 = {"Martin Scorsese", "Steven Spielberg", "Willem Dafoe"} 
+ 
+characterization(121,X) :-	isA(X,"person"),
+				citizenOf(X,"United States"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_122 = {"Martin Scorsese", "Steven Spielberg", "Canada"} 
+ 
+characterization(122,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_123 = {"Martin Scorsese", "Steven Spielberg", "Another Woman"} 
+ 
+characterization(123,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_124 = {"Martin Scorsese", "Steven Spielberg", "Gena Rowlands"} 
+ 
+characterization(124,X) :-	isA(X,"person"),
+				citizenOf(X,"United States"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_125 = {"Martin Scorsese", "Steven Spielberg", "Indiana Jones and the Last Crusade"} 
+ 
+characterization(125,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_126 = {"Martin Scorsese", "Steven Spielberg", "Jeffrey Boam"} 
+ 
+characterization(126,X) :-	isA(X,"screenwriter"),
+				isA(X,"producer"),
+				isA(X,"person"),
+				citizenOf(X,"United States"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_127 = {"Martin Scorsese", "Steven Spielberg", "Always"} 
+ 
+characterization(127,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_128 = {"Martin Scorsese", "Steven Spielberg", "Jerry Belson"} 
+ 
+characterization(128,X) :-	isA(X,"film director"),
+				isA(X,"screenwriter"),
+				isA(X,"producer"),
+				isA(X,"person"),
+				citizenOf(X,"United States"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_129 = {"Martin Scorsese", "Steven Spielberg", "Richard Dreyfuss"} 
+ 
+characterization(129,X) :-	isA(X,"person"),
+				citizenOf(X,"United States"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_130 = {"Martin Scorsese", "Steven Spielberg", "New York Stories"} 
+ 
+characterization(130,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_131 = {"Martin Scorsese", "Steven Spielberg", "Richard Price"} 
+ 
+characterization(131,X) :-	isA(X,"screenwriter"),
+				isA(X,"person"),
+				citizenOf(X,"United States"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_132 = {"Martin Scorsese", "Steven Spielberg", "Crimes and Misdemeanors"} 
+ 
+characterization(132,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_133 = {"Martin Scorsese", "Steven Spielberg", "Martin Landau"} 
+ 
+characterization(133,X) :-	isA(X,"producer"),
+				isA(X,"person"),
+				citizenOf(X,"United States"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_134 = {"Martin Scorsese", "Steven Spielberg", "Wild at Heart"} 
+ 
+characterization(134,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_135 = {"Martin Scorsese", "Steven Spielberg", "Barry Gifford"} 
+ 
+characterization(135,X) :-	isA(X,"screenwriter"),
+				isA(X,"person"),
+				citizenOf(X,"United States"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_136 = {"Martin Scorsese", "Steven Spielberg", "Nicolas Cage"} 
+ 
+characterization(136,X) :-	isA(X,"producer"),
+				isA(X,"person"),
+				citizenOf(X,"United States"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_137 = {"Martin Scorsese", "Steven Spielberg", "PolyGram Filmed Entertainment"} 
+ 
+characterization(137,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_138 = {"Martin Scorsese", "Steven Spielberg", "The Godfather: Part III"} 
+ 
+characterization(138,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_139 = {"Martin Scorsese", "Steven Spielberg", "Mario Puzo"} 
+ 
+characterization(139,X) :-	isA(X,"screenwriter"),
+				isA(X,"person"),
+				citizenOf(X,"United States"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_140 = {"Martin Scorsese", "Steven Spielberg", "Al Pacino"} 
+ 
+characterization(140,X) :-	isA(X,"screenwriter"),
+				isA(X,"person"),
+				citizenOf(X,"United States"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_141 = {"Martin Scorsese", "Steven Spielberg", "Goodfellas"} 
+ 
+characterization(141,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_142 = {"Martin Scorsese", "Steven Spielberg", "Nicholas Pileggi"} 
+ 
+characterization(142,X) :-	isA(X,"screenwriter"),
+				isA(X,"producer"),
+				isA(X,"person"),
+				citizenOf(X,"United States"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_143 = {"Martin Scorsese", "Steven Spielberg", "Cape Fear"} 
+ 
+characterization(143,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_144 = {"Martin Scorsese", "Steven Spielberg", "John D. MacDonald"} 
+ 
+characterization(144,X) :-	isA(X,"screenwriter"),
+				isA(X,"person"),
+				citizenOf(X,"United States"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_145 = {"Martin Scorsese", "Steven Spielberg", "Hook"} 
+ 
+characterization(145,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_146 = {"Martin Scorsese", "Steven Spielberg", "Adventure"} 
+ 
+characterization(146,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_147 = {"Martin Scorsese", "Steven Spielberg", "J.M. Barrie"} 
+ 
+characterization(147,X) :-	citizenOf(X,X1),
+				isA(X,"screenwriter"),
+				isA(X,"person"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_148 = {"Martin Scorsese", "Steven Spielberg", "Dustin Hoffman"} 
+ 
+characterization(148,X) :-	isA(X,"person"),
+				citizenOf(X,"United States"),
+				isA(X,"film director"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_149 = {"Martin Scorsese", "Steven Spielberg", "Alice"} 
+ 
+characterization(149,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_150 = {"Martin Scorsese", "Steven Spielberg", "Twin Peaks: Fire Walk with Me"} 
+ 
+characterization(150,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_151 = {"Martin Scorsese", "Steven Spielberg", "Sheryl Lee"} 
+ 
+characterization(151,X) :-	isA(X,"person"),
+				citizenOf(X,"United States"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_152 = {"Martin Scorsese", "Steven Spielberg", "France"} 
+ 
+characterization(152,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_153 = {"Martin Scorsese", "Steven Spielberg", "New Line Cinema"} 
+ 
+characterization(153,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_154 = {"Martin Scorsese", "Steven Spielberg", "Intervista"} 
+ 
+characterization(154,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_155 = {"Martin Scorsese", "Steven Spielberg", "Sergio Rubini"} 
+ 
+characterization(155,X) :-	citizenOf(X,X1),
+				isA(X,"film director"),
+				isA(X,"screenwriter"),
+				isA(X,"person"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_156 = {"Martin Scorsese", "Steven Spielberg", "Aljosha"} 
+ 
+characterization(156,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_157 = {"Martin Scorsese", "Steven Spielberg", "Dracula"} 
+ 
+characterization(157,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_158 = {"Martin Scorsese", "Steven Spielberg", "Horror"} 
+ 
+characterization(158,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_159 = {"Martin Scorsese", "Steven Spielberg", "Bram Stoker"} 
+ 
+characterization(159,X) :-	citizenOf(X,X1),
+				isA(X,"screenwriter"),
+				isA(X,"person"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_160 = {"Martin Scorsese", "Steven Spielberg", "Gary Oldman"} 
+ 
+characterization(160,X) :-	citizenOf(X,X1),
+				isA(X,"person"),
+				isA(X,"film director"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_161 = {"Martin Scorsese", "Steven Spielberg", "American Zoetrope"} 
+ 
+characterization(161,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_162 = {"Martin Scorsese", "Steven Spielberg", "Reservoir Dogs"} 
+ 
+characterization(162,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_163 = {"Martin Scorsese", "Steven Spielberg", "Quentin Tarantino"} 
+ 
+characterization(163,X) :-	isA(X,"film director"),
+				isA(X,"person"),
+				citizenOf(X,"United States"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_164 = {"Martin Scorsese", "Steven Spielberg", "Harvey Keitel"} 
+ 
+characterization(164,X) :-	isA(X,"person"),
+				citizenOf(X,"United States"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_165 = {"Martin Scorsese", "Steven Spielberg", "Live Entertainment"} 
+ 
+characterization(165,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_166 = {"Martin Scorsese", "Steven Spielberg", "Shadows and Fog"} 
+ 
+characterization(166,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_167 = {"Martin Scorsese", "Steven Spielberg", "Husbands and Wives"} 
+ 
+characterization(167,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_168 = {"Martin Scorsese", "Steven Spielberg", "The Age of Innocence"} 
+ 
+characterization(168,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_169 = {"Martin Scorsese", "Steven Spielberg", "Edith Wharton"} 
+ 
+characterization(169,X) :-	isA(X,"screenwriter"),
+				isA(X,"person"),
+				citizenOf(X,"United States"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_170 = {"Martin Scorsese", "Steven Spielberg", "Daniel Day-Lewis"} 
+ 
+characterization(170,X) :-	citizenOf(X,X1),
+				isA(X,"person"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_171 = {"Martin Scorsese", "Steven Spielberg", "Columbia Pictures"} 
+ 
+characterization(171,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_172 = {"Martin Scorsese", "Steven Spielberg", "Jurassic Park"} 
+ 
+characterization(172,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_173 = {"Martin Scorsese", "Steven Spielberg", "Michael Crichton"} 
+ 
+characterization(173,X) :-	isA(X,"screenwriter"),
+				isA(X,"film director"),
+				isA(X,"person"),
+				citizenOf(X,"United States"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_174 = {"Martin Scorsese", "Steven Spielberg", "Sam Neill"} 
+ 
+characterization(174,X) :-	citizenOf(X,X1),
+				isA(X,"person"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_175 = {"Martin Scorsese", "Steven Spielberg", "Manhattan Murder Mystery"} 
+ 
+characterization(175,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_176 = {"Martin Scorsese", "Steven Spielberg", "Pulp Fiction"} 
+ 
+characterization(176,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_177 = {"Martin Scorsese", "Steven Spielberg", "John Travolta"} 
+ 
+characterization(177,X) :-	isA(X,"person"),
+				citizenOf(X,"United States"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_178 = {"Martin Scorsese", "Steven Spielberg", "Miramax"} 
+ 
+characterization(178,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_179 = {"Martin Scorsese", "Steven Spielberg", "Schindler's List"} 
+ 
+characterization(179,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_180 = {"Martin Scorsese", "Steven Spielberg", "Thomas Keneally"} 
+ 
+characterization(180,X) :-	citizenOf(X,X1),
+				isA(X,"screenwriter"),
+				isA(X,"person"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_181 = {"Martin Scorsese", "Steven Spielberg", "Liam Neeson"} 
+ 
+characterization(181,X) :-	citizenOf(X,X1),
+				isA(X,"person"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_182 = {"Martin Scorsese", "Steven Spielberg", "Casino"} 
+ 
+characterization(182,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_183 = {"Martin Scorsese", "Steven Spielberg", "Bullets Over Broadway"} 
+ 
+characterization(183,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_184 = {"Martin Scorsese", "Steven Spielberg", "John Cusack"} 
+ 
+characterization(184,X) :-	isA(X,"person"),
+				citizenOf(X,"United States"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_185 = {"Martin Scorsese", "Steven Spielberg", "Mighty Aphrodite"} 
+ 
+characterization(185,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_186 = {"Martin Scorsese", "Steven Spielberg", "Sweetland Films"} 
+ 
+characterization(186,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_187 = {"Martin Scorsese", "Steven Spielberg", "Jack"} 
+ 
+characterization(187,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_188 = {"Martin Scorsese", "Steven Spielberg", "James DeMonaco"} 
+ 
+characterization(188,X) :-	isA(X,"film director"),
+				isA(X,"screenwriter"),
+				isA(X,"producer"),
+				isA(X,"person"),
+				citizenOf(X,"United States"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_189 = {"Martin Scorsese", "Steven Spielberg", "Robin Williams"} 
+ 
+characterization(189,X) :-	isA(X,"person"),
+				citizenOf(X,"United States"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_190 = {"Martin Scorsese", "Steven Spielberg", "Hollywood Pictures"} 
+ 
+characterization(190,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_191 = {"Martin Scorsese", "Steven Spielberg", "Lost Highway"} 
+ 
+characterization(191,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_192 = {"Martin Scorsese", "Steven Spielberg", "Mystery"} 
+ 
+characterization(192,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_193 = {"Martin Scorsese", "Steven Spielberg", "Bill Pullman"} 
+ 
+characterization(193,X) :-	isA(X,"film director"),
+				isA(X,"person"),
+				citizenOf(X,"United States"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_194 = {"Martin Scorsese", "Steven Spielberg", "CiBy 2000"} 
+ 
+characterization(194,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_195 = {"Martin Scorsese", "Steven Spielberg", "The Rainmaker"} 
+ 
+characterization(195,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_196 = {"Martin Scorsese", "Steven Spielberg", "John Grisham"} 
+ 
+characterization(196,X) :-	isA(X,"screenwriter"),
+				isA(X,"person"),
+				citizenOf(X,"United States"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_197 = {"Martin Scorsese", "Steven Spielberg", "Matt Damon"} 
+ 
+characterization(197,X) :-	isA(X,"screenwriter"),
+				isA(X,"producer"),
+				isA(X,"person"),
+				citizenOf(X,"United States"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_198 = {"Martin Scorsese", "Steven Spielberg", "Constellation Entertainment"} 
+ 
+characterization(198,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_199 = {"Martin Scorsese", "Steven Spielberg", "Jackie Brown"} 
+ 
+characterization(199,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_200 = {"Martin Scorsese", "Steven Spielberg", "Pam Grier"} 
+ 
+characterization(200,X) :-	isA(X,"person"),
+				citizenOf(X,"United States"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_201 = {"Martin Scorsese", "Steven Spielberg", "Amistad"} 
+ 
+characterization(201,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_202 = {"Martin Scorsese", "Steven Spielberg", "David Franzoni"} 
+ 
+characterization(202,X) :-	isA(X,"screenwriter"),
+				isA(X,"producer"),
+				isA(X,"person"),
+				citizenOf(X,"United States"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_203 = {"Martin Scorsese", "Steven Spielberg", "Djimon Hounsou"} 
+ 
+characterization(203,X) :-	isA(X,"person"),
+				citizenOf(X,"United States"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_204 = {"Martin Scorsese", "Steven Spielberg", "Dreamworks Pictures"} 
+ 
+characterization(204,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_205 = {"Martin Scorsese", "Steven Spielberg", "The Lost World: Jurassic Park"} 
+ 
+characterization(205,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_206 = {"Martin Scorsese", "Steven Spielberg", "Jeff Goldblum"} 
+ 
+characterization(206,X) :-	isA(X,"person"),
+				citizenOf(X,"United States"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_207 = {"Martin Scorsese", "Steven Spielberg", "Everyone Says I Love You"} 
+ 
+characterization(207,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_208 = {"Martin Scorsese", "Steven Spielberg", "Kundun"} 
+ 
+characterization(208,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_209 = {"Martin Scorsese", "Steven Spielberg", "00's"} 
+ 
+characterization(209,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_210 = {"Martin Scorsese", "Steven Spielberg", "Tenzin Thuthob Tsarong"} 
+ 
+characterization(210,X) :-	citizenOf(X,X1),
+				isA(X,"person"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_211 = {"Martin Scorsese", "Steven Spielberg", "De Fina-Cappa"} 
+ 
+characterization(211,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_212 = {"Martin Scorsese", "Steven Spielberg", "Saving Private Ryan"} 
+ 
+characterization(212,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_213 = {"Martin Scorsese", "Steven Spielberg", "Robert Rodat"} 
+ 
+characterization(213,X) :-	isA(X,"screenwriter"),
+				isA(X,"producer"),
+				isA(X,"person"),
+				citizenOf(X,"United States"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_214 = {"Martin Scorsese", "Steven Spielberg", "Tom Hanks"} 
+ 
+characterization(214,X) :-	isA(X,"person"),
+				citizenOf(X,"United States"),
+				isA(X,"film director"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_215 = {"Martin Scorsese", "Steven Spielberg", "Celebrity"} 
+ 
+characterization(215,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_216 = {"Martin Scorsese", "Steven Spielberg", "Kenneth Branagh"} 
+ 
+characterization(216,X) :-	citizenOf(X,X1),
+				isA(X,"person"),
+				isA(X,"film director"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_217 = {"Martin Scorsese", "Steven Spielberg", "Deconstructing Harry"} 
+ 
+characterization(217,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_218 = {"Martin Scorsese", "Steven Spielberg", "Following"} 
+ 
+characterization(218,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_219 = {"Martin Scorsese", "Steven Spielberg", "Christopher Nolan"} 
+ 
+characterization(219,X) :-	isA(X,"film director"),
+				isA(X,"screenwriter"),
+				isA(X,"producer"),
+				isA(X,"person"),
+				citizenOf(X,"United States"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_220 = {"Martin Scorsese", "Steven Spielberg", "Jeremy Theobald"} 
+ 
+characterization(220,X) :-	citizenOf(X,X1),
+				isA(X,"producer"),
+				isA(X,"person"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_221 = {"Martin Scorsese", "Steven Spielberg", "Next Wave Films"} 
+ 
+characterization(221,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_222 = {"Martin Scorsese", "Steven Spielberg", "The Straight Story"} 
+ 
+characterization(222,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_223 = {"Martin Scorsese", "Steven Spielberg", "G"} 
+ 
+characterization(223,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_224 = {"Martin Scorsese", "Steven Spielberg", "John Roach"} 
+ 
+characterization(224,X) :-	isA(X,"screenwriter"),
+				isA(X,"person"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_225 = {"Martin Scorsese", "Steven Spielberg", "Richard Farnsworth"} 
+ 
+characterization(225,X) :-	isA(X,"person"),
+				citizenOf(X,"United States"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_226 = {"Martin Scorsese", "Steven Spielberg", "Asymmetrical Productions"} 
+ 
+characterization(226,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_227 = {"Martin Scorsese", "Steven Spielberg", "Bringing Out the Dead"} 
+ 
+characterization(227,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_228 = {"Martin Scorsese", "Steven Spielberg", "Joe Connelly"} 
+ 
+characterization(228,X) :-	isA(X,"screenwriter"),
+				isA(X,"producer"),
+				isA(X,"person"),
+				citizenOf(X,"United States"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_229 = {"Martin Scorsese", "Steven Spielberg", "Eyes Wide Shut"} 
+ 
+characterization(229,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_230 = {"Martin Scorsese", "Steven Spielberg", "Unrated"} 
+ 
+characterization(230,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_231 = {"Martin Scorsese", "Steven Spielberg", "Tom Cruise"} 
+ 
+characterization(231,X) :-	isA(X,"producer"),
+				isA(X,"person"),
+				citizenOf(X,"United States"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_232 = {"Martin Scorsese", "Steven Spielberg", "Small Time Crooks"} 
+ 
+characterization(232,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_233 = {"Martin Scorsese", "Steven Spielberg", "Sweet and Lowdown"} 
+ 
+characterization(233,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_234 = {"Martin Scorsese", "Steven Spielberg", "Sean Penn"} 
+ 
+characterization(234,X) :-	isA(X,"person"),
+				citizenOf(X,"United States"),
+				isA(X,"film director"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_235 = {"Martin Scorsese", "Steven Spielberg", "Memento"} 
+ 
+characterization(235,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_236 = {"Martin Scorsese", "Steven Spielberg", "Guy Pearce"} 
+ 
+characterization(236,X) :-	citizenOf(X,X1),
+				isA(X,"person"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_237 = {"Martin Scorsese", "Steven Spielberg", "Newmarket Capital Group"} 
+ 
+characterization(237,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_238 = {"Martin Scorsese", "Steven Spielberg", "Mulholland Dr."} 
+ 
+characterization(238,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_239 = {"Martin Scorsese", "Steven Spielberg", "Naomi Watts"} 
+ 
+characterization(239,X) :-	citizenOf(X,X1),
+				isA(X,"person"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_240 = {"Martin Scorsese", "Steven Spielberg", "Les Films Alain Sarde"} 
+ 
+characterization(240,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_241 = {"Martin Scorsese", "Steven Spielberg", "A.I. Artificial Intelligence"} 
+ 
+characterization(241,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_242 = {"Martin Scorsese", "Steven Spielberg", "Brian Aldiss"} 
+ 
+characterization(242,X) :-	citizenOf(X,X1),
+				isA(X,"screenwriter"),
+				isA(X,"person"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_243 = {"Martin Scorsese", "Steven Spielberg", "Haley Joel Osment"} 
+ 
+characterization(243,X) :-	isA(X,"person"),
+				citizenOf(X,"United States"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_244 = {"Martin Scorsese", "Steven Spielberg", "The Curse of the Jade Scorpion"} 
+ 
+characterization(244,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_245 = {"Martin Scorsese", "Steven Spielberg", "Greg Stebner"} 
+ 
+characterization(245,X) :-	isA(X,"person"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_246 = {"Martin Scorsese", "Steven Spielberg", "Insomnia"} 
+ 
+characterization(246,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_247 = {"Martin Scorsese", "Steven Spielberg", "Hillary Seitz"} 
+ 
+characterization(247,X) :-	isA(X,"screenwriter"),
+				isA(X,"person"),
+				citizenOf(X,"United States"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_248 = {"Martin Scorsese", "Steven Spielberg", "Alcon Entertainment"} 
+ 
+characterization(248,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_249 = {"Martin Scorsese", "Steven Spielberg", "Gangs of New York"} 
+ 
+characterization(249,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_250 = {"Martin Scorsese", "Steven Spielberg", "Jay Cocks"} 
+ 
+characterization(250,X) :-	isA(X,"screenwriter"),
+				isA(X,"person"),
+				citizenOf(X,"United States"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_251 = {"Martin Scorsese", "Steven Spielberg", "Leonardo DiCaprio"} 
+ 
+characterization(251,X) :-	isA(X,"producer"),
+				isA(X,"person"),
+				citizenOf(X,"United States"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_252 = {"Martin Scorsese", "Steven Spielberg", "Catch Me If You Can"} 
+ 
+characterization(252,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_253 = {"Martin Scorsese", "Steven Spielberg", "Jeff Nathanson"} 
+ 
+characterization(253,X) :-	citizenOf(X,X1),
+				isA(X,"film director"),
+				isA(X,"screenwriter"),
+				isA(X,"producer"),
+				isA(X,"person"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_254 = {"Martin Scorsese", "Steven Spielberg", "Minority Report"} 
+ 
+characterization(254,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_255 = {"Martin Scorsese", "Steven Spielberg", "Philip K. Dick"} 
+ 
+characterization(255,X) :-	isA(X,"screenwriter"),
+				isA(X,"person"),
+				citizenOf(X,"United States"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_256 = {"Martin Scorsese", "Steven Spielberg", "Twentieth Century Fox"} 
+ 
+characterization(256,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_257 = {"Martin Scorsese", "Steven Spielberg", "Kill Bill: Vol. 1"} 
+ 
+characterization(257,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_258 = {"Martin Scorsese", "Steven Spielberg", "Uma Thurman"} 
+ 
+characterization(258,X) :-	isA(X,"person"),
+				citizenOf(X,"United States"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_259 = {"Martin Scorsese", "Steven Spielberg", "Anything Else"} 
+ 
+characterization(259,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_260 = {"Martin Scorsese", "Steven Spielberg", "The Aviator"} 
+ 
+characterization(260,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_261 = {"Martin Scorsese", "Steven Spielberg", "John Logan"} 
+ 
+characterization(261,X) :-	isA(X,"screenwriter"),
+				isA(X,"person"),
+				citizenOf(X,"United States"),
+				isA(X,"film director"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_262 = {"Martin Scorsese", "Steven Spielberg", "Forward Pass"} 
+ 
+characterization(262,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_263 = {"Martin Scorsese", "Steven Spielberg", "Kill Bill: Vol. 2"} 
+ 
+characterization(263,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_264 = {"Martin Scorsese", "Steven Spielberg", "The Terminal"} 
+ 
+characterization(264,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_265 = {"Martin Scorsese", "Steven Spielberg", "Andrew Niccol"} 
+ 
+characterization(265,X) :-	citizenOf(X,X1),
+				isA(X,"film director"),
+				isA(X,"screenwriter"),
+				isA(X,"person"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_266 = {"Martin Scorsese", "Steven Spielberg", "Batman Begins"} 
+ 
+characterization(266,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_267 = {"Martin Scorsese", "Steven Spielberg", "Bob Kane"} 
+ 
+characterization(267,X) :-	isA(X,"screenwriter"),
+				isA(X,"person"),
+				citizenOf(X,"United States"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_268 = {"Martin Scorsese", "Steven Spielberg", "War of the Worlds"} 
+ 
+characterization(268,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_269 = {"Martin Scorsese", "Steven Spielberg", "Josh Friedman"} 
+ 
+characterization(269,X) :-	isA(X,"screenwriter"),
+				isA(X,"producer"),
+				isA(X,"person"),
+				citizenOf(X,"United States"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_270 = {"Martin Scorsese", "Steven Spielberg", "Melinda and Melinda"} 
+ 
+characterization(270,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_271 = {"Martin Scorsese", "Steven Spielberg", "Will Ferrell"} 
+ 
+characterization(271,X) :-	isA(X,"producer"),
+				isA(X,"person"),
+				citizenOf(X,"United States"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_272 = {"Martin Scorsese", "Steven Spielberg", "Fox Searchlight Pictures"} 
+ 
+characterization(272,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_273 = {"Martin Scorsese", "Steven Spielberg", "The Prestige"} 
+ 
+characterization(273,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_274 = {"Martin Scorsese", "Steven Spielberg", "Jonathan Nolan"} 
+ 
+characterization(274,X) :-	isA(X,"screenwriter"),
+				isA(X,"person"),
+				citizenOf(X,"United States"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_275 = {"Martin Scorsese", "Steven Spielberg", "The Departed"} 
+ 
+characterization(275,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_276 = {"Martin Scorsese", "Steven Spielberg", "William Monahan"} 
+ 
+characterization(276,X) :-	isA(X,"screenwriter"),
+				isA(X,"person"),
+				citizenOf(X,"United States"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_277 = {"Martin Scorsese", "Steven Spielberg", "Munich"} 
+ 
+characterization(277,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_278 = {"Martin Scorsese", "Steven Spielberg", "Tony Kushner"} 
+ 
+characterization(278,X) :-	isA(X,"screenwriter"),
+				isA(X,"person"),
+				citizenOf(X,"United States"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_279 = {"Martin Scorsese", "Steven Spielberg", "Eric Bana"} 
+ 
+characterization(279,X) :-	citizenOf(X,X1),
+				isA(X,"person"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_280 = {"Martin Scorsese", "Steven Spielberg", "Scoop"} 
+ 
+characterization(280,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_281 = {"Martin Scorsese", "Steven Spielberg", "Scarlett Johansson"} 
+ 
+characterization(281,X) :-	isA(X,"person"),
+				citizenOf(X,"United States"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_282 = {"Martin Scorsese", "Steven Spielberg", "BBC Films"} 
+ 
+characterization(282,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_283 = {"Martin Scorsese", "Steven Spielberg", "Match Point"} 
+ 
+characterization(283,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_284 = {"Martin Scorsese", "Steven Spielberg", "Inland Empire"} 
+ 
+characterization(284,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_285 = {"Martin Scorsese", "Steven Spielberg", "Karolina Gruszka"} 
+ 
+characterization(285,X) :-	citizenOf(X,X1),
+				isA(X,"person"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_286 = {"Martin Scorsese", "Steven Spielberg", "StudioCanal"} 
+ 
+characterization(286,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_287 = {"Martin Scorsese", "Steven Spielberg", "The Dark Knight"} 
+ 
+characterization(287,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_288 = {"Martin Scorsese", "Steven Spielberg", "10's"} 
+ 
+characterization(288,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_289 = {"Martin Scorsese", "Steven Spielberg", "Indiana Jones and the Kingdom of the Crystal Skull"} 
+ 
+characterization(289,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_290 = {"Martin Scorsese", "Steven Spielberg", "David Koepp"} 
+ 
+characterization(290,X) :-	isA(X,"screenwriter"),
+				isA(X,"person"),
+				citizenOf(X,"United States"),
+				isA(X,"film director"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_291 = {"Martin Scorsese", "Steven Spielberg", "Cassandra's Dream"} 
+ 
+characterization(291,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_292 = {"Martin Scorsese", "Steven Spielberg", "Colin Farrell"} 
+ 
+characterization(292,X) :-	citizenOf(X,X1),
+				isA(X,"person"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_293 = {"Martin Scorsese", "Steven Spielberg", "Iberville Productions"} 
+ 
+characterization(293,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_294 = {"Martin Scorsese", "Steven Spielberg", "Vicky Cristina Barcelona"} 
+ 
+characterization(294,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_295 = {"Martin Scorsese", "Steven Spielberg", "Rebecca Hall"} 
+ 
+characterization(295,X) :-	citizenOf(X,X1),
+				isA(X,"person"),
+				isA(X,"film director"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_296 = {"Martin Scorsese", "Steven Spielberg", "Spain"} 
+ 
+characterization(296,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_297 = {"Martin Scorsese", "Steven Spielberg", "The Weinstein Company"} 
+ 
+characterization(297,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_298 = {"Martin Scorsese", "Steven Spielberg", "Inglourious Basterds"} 
+ 
+characterization(298,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_299 = {"Martin Scorsese", "Steven Spielberg", "Brad Pitt"} 
+ 
+characterization(299,X) :-	isA(X,"film director"),
+				isA(X,"person"),
+				citizenOf(X,"United States"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_300 = {"Martin Scorsese", "Steven Spielberg", "Whatever Works"} 
+ 
+characterization(300,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_301 = {"Martin Scorsese", "Steven Spielberg", "Evan Rachel Wood"} 
+ 
+characterization(301,X) :-	isA(X,"person"),
+				citizenOf(X,"United States"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_302 = {"Martin Scorsese", "Steven Spielberg", "Sony Pictures Classics"} 
+ 
+characterization(302,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_303 = {"Martin Scorsese", "Steven Spielberg", "Inception"} 
+ 
+characterization(303,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_304 = {"Martin Scorsese", "Steven Spielberg", "Shutter Island"} 
+ 
+characterization(304,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_305 = {"Martin Scorsese", "Steven Spielberg", "Laeta Kalogridis"} 
+ 
+characterization(305,X) :-	isA(X,"screenwriter"),
+				isA(X,"producer"),
+				isA(X,"person"),
+				citizenOf(X,"United States"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_306 = {"Martin Scorsese", "Steven Spielberg", "You Will Meet a Tall Dark Stranger"} 
+ 
+characterization(306,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_307 = {"Martin Scorsese", "Steven Spielberg", "Anthony Hopkins"} 
+ 
+characterization(307,X) :-	isA(X,"screenwriter"),
+				isA(X,"film director"),
+				isA(X,"person"),
+				citizenOf(X,"United States"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_308 = {"Martin Scorsese", "Steven Spielberg", "Mediapro"} 
+ 
+characterization(308,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_309 = {"Martin Scorsese", "Steven Spielberg", "Hugo"} 
+ 
+characterization(309,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_310 = {"Martin Scorsese", "Steven Spielberg", "Asa Butterfield"} 
+ 
+characterization(310,X) :-	citizenOf(X,X1),
+				isA(X,"person"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_311 = {"Martin Scorsese", "Steven Spielberg", "The Adventures of Tintin"} 
+ 
+characterization(311,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_312 = {"Martin Scorsese", "Steven Spielberg", "Animation"} 
+ 
+characterization(312,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_313 = {"Martin Scorsese", "Steven Spielberg", "Hergé"} 
+ 
+characterization(313,X) :-	citizenOf(X,X1),
+				isA(X,"screenwriter"),
+				isA(X,"person"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_314 = {"Martin Scorsese", "Steven Spielberg", "Jamie Bell"} 
+ 
+characterization(314,X) :-	citizenOf(X,X1),
+				isA(X,"person"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_315 = {"Martin Scorsese", "Steven Spielberg", "War Horse"} 
+ 
+characterization(315,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_316 = {"Martin Scorsese", "Steven Spielberg", "Lee Hall"} 
+ 
+characterization(316,X) :-	citizenOf(X,X1),
+				isA(X,"screenwriter"),
+				isA(X,"person"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_317 = {"Martin Scorsese", "Steven Spielberg", "Jeremy Irvine"} 
+ 
+characterization(317,X) :-	citizenOf(X,X1),
+				isA(X,"person"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_318 = {"Martin Scorsese", "Steven Spielberg", "Midnight in Paris"} 
+ 
+characterization(318,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_319 = {"Martin Scorsese", "Steven Spielberg", "Owen Wilson"} 
+ 
+characterization(319,X) :-	isA(X,"person"),
+				citizenOf(X,"United States"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_320 = {"Martin Scorsese", "Steven Spielberg", "The Dark Knight Rises"} 
+ 
+characterization(320,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_321 = {"Martin Scorsese", "Steven Spielberg", "Django Unchained"} 
+ 
+characterization(321,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_322 = {"Martin Scorsese", "Steven Spielberg", "Jamie Foxx"} 
+ 
+characterization(322,X) :-	isA(X,"person"),
+				citizenOf(X,"United States"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_323 = {"Martin Scorsese", "Steven Spielberg", "Lincoln"} 
+ 
+characterization(323,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_324 = {"Martin Scorsese", "Steven Spielberg", "To Rome with Love"} 
+ 
+characterization(324,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_325 = {"Martin Scorsese", "Steven Spielberg", "Medusa Film"} 
+ 
+characterization(325,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_326 = {"Martin Scorsese", "Steven Spielberg", "The Wolf of Wall Street"} 
+ 
+characterization(326,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_327 = {"Martin Scorsese", "Steven Spielberg", "Terence Winter"} 
+ 
+characterization(327,X) :-	isA(X,"screenwriter"),
+				isA(X,"producer"),
+				isA(X,"person"),
+				citizenOf(X,"United States"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_328 = {"Martin Scorsese", "Steven Spielberg", "Red Granite Pictures"} 
+ 
+characterization(328,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_329 = {"Martin Scorsese", "Steven Spielberg", "Blue Jasmine"} 
+ 
+characterization(329,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_330 = {"Martin Scorsese", "Steven Spielberg", "Cate Blanchett"} 
+ 
+characterization(330,X) :-	isA(X,"person"),
+				citizenOf(X,"United States"),
+				isA(X,"film director"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_331 = {"Martin Scorsese", "Steven Spielberg", "Gravier Productions"} 
+ 
+characterization(331,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_332 = {"Martin Scorsese", "Steven Spielberg", "Interstellar"} 
+ 
+characterization(332,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_333 = {"Martin Scorsese", "Steven Spielberg", "Matthew McConaughey"} 
+ 
+characterization(333,X) :-	isA(X,"person"),
+				citizenOf(X,"United States"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_334 = {"Martin Scorsese", "Steven Spielberg", "Magic in the Moonlight"} 
+ 
+characterization(334,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_335 = {"Martin Scorsese", "Steven Spielberg", "Colin Firth"} 
+ 
+characterization(335,X) :-	citizenOf(X,X1),
+				isA(X,"person"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_336 = {"Martin Scorsese", "Steven Spielberg", "The Hateful Eight"} 
+ 
+characterization(336,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_337 = {"Martin Scorsese", "Steven Spielberg", "Samuel L. Jackson"} 
+ 
+characterization(337,X) :-	isA(X,"producer"),
+				isA(X,"person"),
+				citizenOf(X,"United States"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_338 = {"Martin Scorsese", "Steven Spielberg", "Visiona Romantica"} 
+ 
+characterization(338,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_339 = {"Martin Scorsese", "Steven Spielberg", "Bridge of Spies"} 
+ 
+characterization(339,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_340 = {"Martin Scorsese", "Steven Spielberg", "Matt Charman"} 
+ 
+characterization(340,X) :-	citizenOf(X,X1),
+				isA(X,"screenwriter"),
+				isA(X,"producer"),
+				isA(X,"person"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_341 = {"Martin Scorsese", "Steven Spielberg", "Irrational Man"} 
+ 
+characterization(341,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_342 = {"Martin Scorsese", "Steven Spielberg", "Joaquin Phoenix"} 
+ 
+characterization(342,X) :-	isA(X,"person"),
+				citizenOf(X,"United States"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_343 = {"Martin Scorsese", "Steven Spielberg", "The BFG"} 
+ 
+characterization(343,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_344 = {"Martin Scorsese", "Steven Spielberg", "Mark Rylance"} 
+ 
+characterization(344,X) :-	citizenOf(X,X1),
+				isA(X,"person"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_345 = {"Martin Scorsese", "Steven Spielberg", "Walt Disney Pictures"} 
+ 
+characterization(345,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_346 = {"Martin Scorsese", "Steven Spielberg", "Café Society"} 
+ 
+characterization(346,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_347 = {"Martin Scorsese", "Steven Spielberg", "Jesse Eisenberg"} 
+ 
+characterization(347,X) :-	isA(X,"person"),
+				citizenOf(X,"United States"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_348 = {"Martin Scorsese", "Steven Spielberg", "Dunkirk"} 
+ 
+characterization(348,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_349 = {"Martin Scorsese", "Steven Spielberg", "Fionn Whitehead"} 
+ 
+characterization(349,X) :-	citizenOf(X,X1),
+				isA(X,"person"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_350 = {"Martin Scorsese", "Steven Spielberg", "Syncopy"} 
+ 
+characterization(350,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_351 = {"Martin Scorsese", "Steven Spielberg", "Silence"} 
+ 
+characterization(351,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_352 = {"Martin Scorsese", "Steven Spielberg", "Andrew Garfield"} 
+ 
+characterization(352,X) :-	isA(X,"person"),
+				citizenOf(X,"United States"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_353 = {"Martin Scorsese", "Steven Spielberg", "SharpSword Films"} 
+ 
+characterization(353,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_354 = {"Martin Scorsese", "Steven Spielberg", "Wonder Wheel"} 
+ 
+characterization(354,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_355 = {"Martin Scorsese", "Steven Spielberg", "Justin Timberlake"} 
+ 
+characterization(355,X) :-	isA(X,"person"),
+				citizenOf(X,"United States"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_356 = {"Martin Scorsese", "Steven Spielberg", "Amazon Studios"} 
+ 
+characterization(356,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_357 = {"Martin Scorsese", "Steven Spielberg", "The Post"} 
+ 
+characterization(357,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_358 = {"Martin Scorsese", "Steven Spielberg", "20's"} 
+ 
+characterization(358,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_359 = {"Martin Scorsese", "Steven Spielberg", "Liz Hannah"} 
+ 
+characterization(359,X) :-	isA(X,"screenwriter"),
+				isA(X,"producer"),
+				isA(X,"person"),
+				citizenOf(X,"United States"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_360 = {"Martin Scorsese", "Steven Spielberg", "Meryl Streep"} 
+ 
+characterization(360,X) :-	isA(X,"person"),
+				citizenOf(X,"United States"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_361 = {"Martin Scorsese", "Steven Spielberg", "Ready Player One"} 
+ 
+characterization(361,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_362 = {"Martin Scorsese", "Steven Spielberg", "Zak Penn"} 
+ 
+characterization(362,X) :-	isA(X,"screenwriter"),
+				isA(X,"person"),
+				citizenOf(X,"United States"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_363 = {"Martin Scorsese", "Steven Spielberg", "Tye Sheridan"} 
+ 
+characterization(363,X) :-	isA(X,"producer"),
+				isA(X,"person"),
+				citizenOf(X,"United States"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_364 = {"Martin Scorsese", "Steven Spielberg", "The Irishman"} 
+ 
+characterization(364,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_365 = {"Martin Scorsese", "Steven Spielberg", "Steven Zaillian"} 
+ 
+characterization(365,X) :-	isA(X,"screenwriter"),
+				isA(X,"producer"),
+				isA(X,"film director"),
+				isA(X,"person"),
+				citizenOf(X,"United States"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_366 = {"Martin Scorsese", "Steven Spielberg", "Tribeca Productions"} 
+ 
+characterization(366,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_367 = {"Martin Scorsese", "Steven Spielberg", "Once Upon a Time... In Hollywood"} 
+ 
+characterization(367,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_368 = {"Martin Scorsese", "Steven Spielberg", "Tenet"} 
+ 
+characterization(368,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_369 = {"Martin Scorsese", "Steven Spielberg", "John David Washington"} 
+ 
+characterization(369,X) :-	isA(X,"person"),
+				citizenOf(X,"United States"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_370 = {"Martin Scorsese", "Steven Spielberg", "film director"} 
+ 
+characterization(370,X) :-	isA(X,"person"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_371 = {"Martin Scorsese", "Steven Spielberg", "person"} 
+ 
+characterization(371,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_372 = {"Martin Scorsese", "Steven Spielberg", "filmmaker"} 
+ 
+characterization(372,X) :-	isA(X,"person"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_373 = {"Martin Scorsese", "Steven Spielberg", "producer"} 
+ 
+characterization(373,X) :-	isA(X,"person"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_374 = {"Martin Scorsese", "Steven Spielberg", "creator"} 
+ 
+characterization(374,X) :-	isA(X,"person"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_375 = {"Martin Scorsese", "Steven Spielberg", "entity"} 
+ 
+characterization(375,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_376 = {"Martin Scorsese", "Steven Spielberg", "screenwriter"} 
+ 
+characterization(376,X) :-	isA(X,"person"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_377 = {"Martin Scorsese", "Steven Spielberg", "scriptwriter"} 
+ 
+characterization(377,X) :-	isA(X,"person"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_378 = {"Martin Scorsese", "Steven Spielberg", "author"} 
+ 
+characterization(378,X) :-	isA(X,"person"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_379 = {"Martin Scorsese", "Steven Spielberg", "writer"} 
+ 
+characterization(379,X) :-	isA(X,"person"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_380 = {"Martin Scorsese", "Steven Spielberg", "communicator"} 
+ 
+characterization(380,X) :-	isA(X,"person"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_381 = {"Martin Scorsese", "Steven Spielberg", "actor"} 
+ 
+characterization(381,X) :-	isA(X,"person"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_382 = {"Martin Scorsese", "Steven Spielberg", "performer"} 
+ 
+characterization(382,X) :-	isA(X,"person"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_383 = {"Martin Scorsese", "Steven Spielberg", "entertainer"} 
+ 
+characterization(383,X) :-	isA(X,"person"),
+				isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_384 = {"Martin Scorsese", "Steven Spielberg", "New Zealand"} 
+ 
+characterization(384,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_385 = {"Martin Scorsese", "Steven Spielberg", "Austria"} 
+ 
+characterization(385,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_386 = {"Martin Scorsese", "Steven Spielberg", "Australia"} 
+ 
+characterization(386,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_387 = {"Martin Scorsese", "Steven Spielberg", "Republic of Ireland"} 
+ 
+characterization(387,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_388 = {"Martin Scorsese", "Steven Spielberg", "Republic of Benin"} 
+ 
+characterization(388,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_389 = {"Martin Scorsese", "Steven Spielberg", "Romania"} 
+ 
+characterization(389,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_390 = {"Martin Scorsese", "Steven Spielberg", "Belgium"} 
+ 
+characterization(390,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_391 = {"Martin Scorsese", "Steven Spielberg", "United States "} 
+ 
+characterization(391,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_392 = {"Martin Scorsese", "Steven Spielberg", "actor "} 
+ 
+characterization(392,X) :-	top(X).
+ 
+%=========================================================================
+ 
+% U_393 = {"Martin Scorsese", "Steven Spielberg", "Puerto Rico"} 
+ 
+characterization(393,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_394 = {"Martin Scorsese", "Steven Spielberg", "Republic of Poland"} 
+ 
+characterization(394,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_395 = {"Martin Scorsese", "Steven Spielberg", "Netherlands"} 
+ 
+characterization(395,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_396 = {"Martin Scorsese", "Steven Spielberg", "Greece"} 
+ 
+characterization(396,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_397 = {"Martin Scorsese", "Steven Spielberg", "Germany"} 
+ 
+characterization(397,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_398 = {"Martin Scorsese", "Steven Spielberg", "India"} 
+ 
+characterization(398,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 
+% U_399 = {"Martin Scorsese", "Steven Spielberg", "Czechoslovakia"} 
+ 
+characterization(399,X) :-	isA(X,"entity").
+ 
+%=========================================================================
+ 

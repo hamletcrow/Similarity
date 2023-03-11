@@ -1,0 +1,79 @@
+% U_01 = {"pacific_park", "epcot"} 
+ 
+characterization(01,X) :-	isA(X,"amusement_park"),
+				located(X,X2),
+					partOf(X2,"us").
+ 
+%=========================================================================
+ 
+% U_02 = {"pacific_park", "epcot", "theme_park"} 
+ 
+characterization(02,X) :-	isA(X,"amusement_park").
+ 
+%=========================================================================
+ 
+% U_03 = {"pacific_park", "epcot", "amusement_park"} 
+ 
+characterization(03,X) :-	top(X).
+ 
+%=========================================================================
+ 
+% U_04 = {"pacific_park", "epcot", "discovery_cove"} 
+ 
+characterization(04,X) :-	isA(X,"amusement_park"),
+				located(X,X2),
+					partOf(X2,"us").
+ 
+%=========================================================================
+ 
+% U_05 = {"pacific_park", "epcot", "gardaland"} 
+ 
+characterization(05,X) :-	isA(X,"amusement_park"),
+				located(X,X2).
+ 
+%=========================================================================
+ 
+% U_06 = {"pacific_park", "epcot", "leolandia"} 
+ 
+characterization(06,X) :-	isA(X,"amusement_park"),
+				located(X,X2).
+ 
+%=========================================================================
+ 
+% U_07 = {"pacific_park", "epcot", "prater"} 
+ 
+characterization(07,X) :-	isA(X,"amusement_park"),
+				located(X,X2).
+ 
+%=========================================================================
+ 
+% U_08 = {"pacific_park", "epcot", "austria"} 
+ 
+characterization(08,X) :-	top(X).
+ 
+%=========================================================================
+ 
+% U_09 = {"pacific_park", "epcot", "california"} 
+ 
+characterization(09,X) :-	top(X).
+ 
+%=========================================================================
+ 
+% U_10 = {"pacific_park", "epcot", "florida"} 
+ 
+characterization(10,X) :-	top(X).
+ 
+%=========================================================================
+ 
+% U_11 = {"pacific_park", "epcot", "italy"} 
+ 
+characterization(11,X) :-	top(X).
+ 
+%=========================================================================
+ 
+% U_12 = {"pacific_park", "epcot", "us"} 
+ 
+characterization(12,X) :-	top(X).
+ 
+%=========================================================================
+ 
