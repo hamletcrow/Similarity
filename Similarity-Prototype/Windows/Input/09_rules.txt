@@ -1,6 +1,0 @@
-inc:- p1(X), not p2(X), p2(Y), not p1(Y).
-notPrecOne:-p1(X), not p2(X).
-notPrecTwo:-p2(Y), not p1(Y).
-precOne:-not inc,notPrecTwo.
-precTwo:-not inc,notPrecOne.
-sim:-not inc, not precOne,not precTwo.
